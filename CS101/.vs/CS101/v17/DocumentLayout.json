@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A01B45F-127D-4744-B42F-D5ABA64EF95E}|Degisken\\Degisken.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\degisken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A01B45F-127D-4744-B42F-D5ABA64EF95E}|Degisken\\Degisken.csproj|solutionrelative:degisken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62E05852-8062-489C-9818-A9DCD7710BC2}|Operator\\Operator.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\operator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E05852-8062-489C-9818-A9DCD7710BC2}|Operator\\Operator.csproj|solutionrelative:operator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Degisken\\Program.cs",
-              "RelativeDocumentMoniker": "Degisken\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Degisken\\Program.cs",
-              "RelativeToolTip": "Degisken\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T17:19:53.263Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -36,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Operator\\Program.cs",
+              "RelativeDocumentMoniker": "Operator\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Operator\\Program.cs*",
+              "RelativeToolTip": "Operator\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:37:29.965Z",
+              "EditorCaption": ""
             }
           ]
         }

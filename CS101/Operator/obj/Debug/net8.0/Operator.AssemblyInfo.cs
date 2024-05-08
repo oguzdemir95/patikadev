@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Degisken")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Operator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a2608b0a55ef3aa2f6f43782e4d3b6499294b5c")]
-[assembly: System.Reflection.AssemblyProductAttribute("Degisken")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Degisken")]
+[assembly: System.Reflection.AssemblyProductAttribute("Operator")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Operator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
