@@ -6,7 +6,7 @@
         string degisken = null;
         string Degisken = null;
 
-        //string degisken = " ";
+        string degisken1 = " ";
 
         byte b = 5;             // 1 byte
         sbyte c = 5;            // 1 byte
