@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TipDonusum")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("HataYonetimi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef317753e4ce32bf5892ebc77a1198398994ff68")]
-[assembly: System.Reflection.AssemblyProductAttribute("TipDonusum")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TipDonusum")]
+[assembly: System.Reflection.AssemblyProductAttribute("HataYonetimi")]
+[assembly: System.Reflection.AssemblyTitleAttribute("HataYonetimi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.

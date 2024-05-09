@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26FFE871-82A2-4CC6-87DC-A997E9A02408}|TipDonusum\\TipDonusum.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\tipdonusum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26FFE871-82A2-4CC6-87DC-A997E9A02408}|TipDonusum\\TipDonusum.csproj|solutionrelative:tipdonusum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2EDA543-E123-4FC4-A5C2-A3984E892BBA}|HataYonetimi\\HataYonetimi.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\hatayonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EDA543-E123-4FC4-A5C2-A3984E892BBA}|HataYonetimi\\HataYonetimi.csproj|solutionrelative:hatayonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,13 +28,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\TipDonusum\\Program.cs",
-              "RelativeDocumentMoniker": "TipDonusum\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\TipDonusum\\Program.cs",
-              "RelativeToolTip": "TipDonusum\\Program.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAkwEYAAAAsAAAA",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\HataYonetimi\\Program.cs",
+              "RelativeDocumentMoniker": "HataYonetimi\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\HataYonetimi\\Program.cs*",
+              "RelativeToolTip": "HataYonetimi\\Program.cs*",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T06:23:29.711Z",
+              "WhenOpened": "2024-05-09T07:51:18.685Z",
               "EditorCaption": ""
             }
           ]
