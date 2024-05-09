@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\Operator\\Operator.csproj": {}
+    "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\TipDonusum\\TipDonusum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\Operator\\Operator.csproj": {
+    "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\TipDonusum\\TipDonusum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\Operator\\Operator.csproj",
-        "projectName": "Operator",
-        "projectPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\Operator\\Operator.csproj",
+        "projectUniqueName": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\TipDonusum\\TipDonusum.csproj",
+        "projectName": "TipDonusum",
+        "projectPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\TipDonusum\\TipDonusum.csproj",
         "packagesPath": "C:\\Users\\oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\Operator\\obj\\",
+        "outputPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\TipDonusum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

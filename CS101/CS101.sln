@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Degisken", "Degisken\Degisken.csproj", "{7A01B45F-127D-4744-B42F-D5ABA64EF95E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator", "Operator\Operator.csproj", "{62E05852-8062-489C-9818-A9DCD7710BC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operator", "Operator\Operator.csproj", "{62E05852-8062-489C-9818-A9DCD7710BC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipDonusum", "TipDonusum\TipDonusum.csproj", "{26FFE871-82A2-4CC6-87DC-A997E9A02408}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{62E05852-8062-489C-9818-A9DCD7710BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62E05852-8062-489C-9818-A9DCD7710BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62E05852-8062-489C-9818-A9DCD7710BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26FFE871-82A2-4CC6-87DC-A997E9A02408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FFE871-82A2-4CC6-87DC-A997E9A02408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FFE871-82A2-4CC6-87DC-A997E9A02408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FFE871-82A2-4CC6-87DC-A997E9A02408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
