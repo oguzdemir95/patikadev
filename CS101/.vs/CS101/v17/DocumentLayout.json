@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E1EBD11-78AD-4142-8432-2C3194569A1B}|SwitchCase\\SwitchCase.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\switchcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1EBD11-78AD-4142-8432-2C3194569A1B}|SwitchCase\\SwitchCase.csproj|solutionrelative:switchcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A58E0FD-F1FA-4886-8226-C1D35CEEEB95}|ForLoop\\ForLoop.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\forloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A58E0FD-F1FA-4886-8226-C1D35CEEEB95}|ForLoop\\ForLoop.csproj|solutionrelative:forloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,13 +28,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SwitchCase\\Program.cs",
-              "RelativeDocumentMoniker": "SwitchCase\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SwitchCase\\Program.cs",
-              "RelativeToolTip": "SwitchCase\\Program.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAowEcAAAAWAAAA",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\Program.cs",
+              "RelativeDocumentMoniker": "ForLoop\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\Program.cs*",
+              "RelativeToolTip": "ForLoop\\Program.cs*",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T15:49:39.282Z",
+              "WhenOpened": "2024-05-10T06:37:04.117Z",
               "EditorCaption": ""
             }
           ]
