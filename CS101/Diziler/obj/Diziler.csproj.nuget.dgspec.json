@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\ForLoop.csproj": {}
+    "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\Diziler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\ForLoop.csproj": {
+    "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\Diziler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\ForLoop.csproj",
-        "projectName": "ForLoop",
-        "projectPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\ForLoop.csproj",
+        "projectUniqueName": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\Diziler.csproj",
+        "projectName": "Diziler",
+        "projectPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\Diziler.csproj",
         "packagesPath": "C:\\Users\\oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\obj\\",
+        "outputPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A58E0FD-F1FA-4886-8226-C1D35CEEEB95}|ForLoop\\ForLoop.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\forloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A58E0FD-F1FA-4886-8226-C1D35CEEEB95}|ForLoop\\ForLoop.csproj|solutionrelative:forloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26CD7D0F-0716-48F7-AB38-AE1703F0D818}|Diziler\\Diziler.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\diziler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CD7D0F-0716-48F7-AB38-AE1703F0D818}|Diziler\\Diziler.csproj|solutionrelative:diziler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,27 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\Program.cs",
-              "RelativeDocumentMoniker": "ForLoop\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ForLoop\\Program.cs*",
-              "RelativeToolTip": "ForLoop\\Program.cs*",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCkAAAAhAAAA",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\Program.cs",
+              "RelativeDocumentMoniker": "Diziler\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\Program.cs",
+              "RelativeToolTip": "Diziler\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCYAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T06:37:04.117Z",
+              "WhenOpened": "2024-05-22T15:05:37.893Z",
               "EditorCaption": ""
             }
           ]

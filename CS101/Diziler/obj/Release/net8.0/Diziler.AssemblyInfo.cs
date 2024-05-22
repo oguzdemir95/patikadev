@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("IfElse")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Diziler")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a5abf4c902490f9b797aadf4942dabc87868e8b")]
-[assembly: System.Reflection.AssemblyProductAttribute("IfElse")]
-[assembly: System.Reflection.AssemblyTitleAttribute("IfElse")]
+[assembly: System.Reflection.AssemblyProductAttribute("Diziler")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Diziler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
