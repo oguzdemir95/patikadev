@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SwitchCase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a5abf4c902490f9b797aadf4942dabc87868e8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0ff4ac47589c7e90611b935d7173b4fda3e5454")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwitchCase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwitchCase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
