@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("HataYonetimi")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ArrayMetotlari")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90ea5fd90425e9be813fb7cd2869a6ccd05550cb")]
-[assembly: System.Reflection.AssemblyProductAttribute("HataYonetimi")]
-[assembly: System.Reflection.AssemblyTitleAttribute("HataYonetimi")]
+[assembly: System.Reflection.AssemblyProductAttribute("ArrayMetotlari")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ArrayMetotlari")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArrayMetotları\\ArrayMetotları.csproj",
-      "projectName": "ArrayMetotları",
-      "projectPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArrayMetotları\\ArrayMetotları.csproj",
+      "projectUniqueName": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArrayMetotları\\ArrayMetotlari.csproj",
+      "projectName": "ArrayMetotlari",
+      "projectPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArrayMetotları\\ArrayMetotlari.csproj",
       "packagesPath": "C:\\Users\\oğuzhan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArrayMetotları\\obj\\",
       "projectStyle": "PackageReference",

@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileForeach", "WhileForeac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diziler", "Diziler\Diziler.csproj", "{26CD7D0F-0716-48F7-AB38-AE1703F0D818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMetotları", "ArrayMetotları\ArrayMetotları.csproj", "{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMetotlari", "ArrayMetotları\ArrayMetotlari.csproj", "{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
