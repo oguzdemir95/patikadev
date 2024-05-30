@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}|ArrayMetotlar\u0131\\ArrayMetotlar\u0131.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\arraymetotlar\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}|ArrayMetotlar\u0131\\ArrayMetotlar\u0131.csproj|solutionrelative:arraymetotlar\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CD7D0F-0716-48F7-AB38-AE1703F0D818}|Diziler\\Diziler.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\diziler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CD7D0F-0716-48F7-AB38-AE1703F0D818}|Diziler\\Diziler.csproj|solutionrelative:diziler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17693F0A-5C71-4A11-B806-91BF99A9DD60}|Metotlar\\Metotlar.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\metotlar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17693F0A-5C71-4A11-B806-91BF99A9DD60}|Metotlar\\Metotlar.csproj|solutionrelative:metotlar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,26 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArrayMetotlar\u0131\\Program.cs",
-              "RelativeDocumentMoniker": "ArrayMetotlar\u0131\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArrayMetotlar\u0131\\Program.cs",
-              "RelativeToolTip": "ArrayMetotlar\u0131\\Program.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwDAAAAAJAAAA",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Metotlar\\Program.cs",
+              "RelativeDocumentMoniker": "Metotlar\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Metotlar\\Program.cs",
+              "RelativeToolTip": "Metotlar\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwAwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T16:19:20.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\Program.cs",
-              "RelativeDocumentMoniker": "Diziler\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Diziler\\Program.cs",
-              "RelativeToolTip": "Diziler\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwCYAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T15:05:37.893Z",
+              "WhenOpened": "2024-05-30T15:32:43.763Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HataYonetimi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90ea5fd90425e9be813fb7cd2869a6ccd05550cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0200101da9428da317fb36f9ccc8a8fbd1be9892")]
 [assembly: System.Reflection.AssemblyProductAttribute("HataYonetimi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HataYonetimi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

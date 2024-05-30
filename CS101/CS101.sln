@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoop", "ForLoop\ForLoop.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileForeach", "WhileForeach\WhileForeach.csproj", "{6C100B64-48CE-49FA-83AA-2B01822B32B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diziler", "Diziler\Diziler.csproj", "{26CD7D0F-0716-48F7-AB38-AE1703F0D818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diziler", "Diziler\Diziler.csproj", "{26CD7D0F-0716-48F7-AB38-AE1703F0D818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMetotlari", "ArrayMetotları\ArrayMetotlari.csproj", "{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayMetotlari", "ArrayMetotları\ArrayMetotlari.csproj", "{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{17693F0A-5C71-4A11-B806-91BF99A9DD60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6AA1D69-8274-480A-BB7B-1CBA5770CEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17693F0A-5C71-4A11-B806-91BF99A9DD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17693F0A-5C71-4A11-B806-91BF99A9DD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17693F0A-5C71-4A11-B806-91BF99A9DD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17693F0A-5C71-4A11-B806-91BF99A9DD60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
