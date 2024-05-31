@@ -36,7 +36,7 @@
 
 internal class Islemler
 {
-    // Rekürsif - Öz Yinelemeleri Fonksiyon
+    // Rekürsif - Öz Yinelemeli Fonksiyon
     public int Expo(int sayi, int us)
     {
         if(us<2)
