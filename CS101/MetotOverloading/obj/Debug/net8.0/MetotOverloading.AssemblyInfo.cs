@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TipDonusum")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MetotOverloading")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3401c39331f32548000e083a12dff2380f9e1361")]
-[assembly: System.Reflection.AssemblyProductAttribute("TipDonusum")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TipDonusum")]
+[assembly: System.Reflection.AssemblyProductAttribute("MetotOverloading")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MetotOverloading")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
