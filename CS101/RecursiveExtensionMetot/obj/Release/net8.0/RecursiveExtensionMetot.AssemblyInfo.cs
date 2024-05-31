@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Metotlar")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RecursiveExtensionMetot")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c397025935a9be6fa9afff496bf86d4124eca2c4")]
-[assembly: System.Reflection.AssemblyProductAttribute("Metotlar")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Metotlar")]
+[assembly: System.Reflection.AssemblyProductAttribute("RecursiveExtensionMetot")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RecursiveExtensionMetot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
