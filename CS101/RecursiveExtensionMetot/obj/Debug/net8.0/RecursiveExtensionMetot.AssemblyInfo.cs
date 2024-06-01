@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecursiveExtensionMetot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aef3ab214ccca62e9282546bba99d9a1a9a0bc19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a223a1167044ed13a422e3d8876c4d5c07f88e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecursiveExtensionMetot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecursiveExtensionMetot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

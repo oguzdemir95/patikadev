@@ -25,11 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayMetotlari", "ArrayMeto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{17693F0A-5C71-4A11-B806-91BF99A9DD60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetotOverloading", "MetotOverloading\MetotOverloading.csproj", "{BE01BB2E-F0DB-43F5-BAD6-819BA9FC5FBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetotOverloading", "MetotOverloading\MetotOverloading.csproj", "{BE01BB2E-F0DB-43F5-BAD6-819BA9FC5FBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveExtensionMetot", "RecursiveExtensionMetot\RecursiveExtensionMetot.csproj", "{FE3EE910-BBCE-4629-8A5C-6B7A64A8DD8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveExtensionMetot", "RecursiveExtensionMetot\RecursiveExtensionMetot.csproj", "{FE3EE910-BBCE-4629-8A5C-6B7A64A8DD8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev1", "Odev1\Odev1.csproj", "{2457FA67-6023-4719-A40A-703377C24927}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev1", "Odev1\Odev1.csproj", "{2457FA67-6023-4719-A40A-703377C24927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMetotlar", "StringMetotlar\StringMetotlar.csproj", "{A2D536E9-6C6F-4189-AED8-86B8BEA83A98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{2457FA67-6023-4719-A40A-703377C24927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2457FA67-6023-4719-A40A-703377C24927}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2457FA67-6023-4719-A40A-703377C24927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D536E9-6C6F-4189-AED8-86B8BEA83A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D536E9-6C6F-4189-AED8-86B8BEA83A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D536E9-6C6F-4189-AED8-86B8BEA83A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D536E9-6C6F-4189-AED8-86B8BEA83A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
