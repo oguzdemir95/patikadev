@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2457FA67-6023-4719-A40A-703377C24927}|Odev1\\Odev1.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\odev1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2457FA67-6023-4719-A40A-703377C24927}|Odev1\\Odev1.csproj|solutionrelative:odev1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2457FA67-6023-4719-A40A-703377C24927}|Odev1\\Odev1.csproj|C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\odev1\\sorular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2457FA67-6023-4719-A40A-703377C24927}|Odev1\\Odev1.csproj|solutionrelative:odev1\\sorular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3EE910-BBCE-4629-8A5C-6B7A64A8DD8B}|RecursiveExtensionMetot\\RecursiveExtensionMetot.csproj|C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\recursiveextensionmetot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3EE910-BBCE-4629-8A5C-6B7A64A8DD8B}|RecursiveExtensionMetot\\RecursiveExtensionMetot.csproj|solutionrelative:recursiveextensionmetot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE01BB2E-F0DB-43F5-BAD6-819BA9FC5FBA}|MetotOverloading\\MetotOverloading.csproj|C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\metotoverloading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE01BB2E-F0DB-43F5-BAD6-819BA9FC5FBA}|MetotOverloading\\MetotOverloading.csproj|solutionrelative:metotoverloading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72056AA4-FF23-470C-AE0D-01D3510DC325}|DateTimeveMath\\DateTimeveMath.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\datetimevemath\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72056AA4-FF23-470C-AE0D-01D3510DC325}|DateTimeveMath\\DateTimeveMath.csproj|solutionrelative:datetimevemath\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,53 +22,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sorular.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Odev1\\Sorular.cs",
-              "RelativeDocumentMoniker": "Odev1\\Sorular.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Odev1\\Sorular.cs",
-              "RelativeToolTip": "Odev1\\Sorular.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAkwF0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:49:00.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Odev1\\Program.cs",
-              "RelativeDocumentMoniker": "Odev1\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Odev1\\Program.cs",
-              "RelativeToolTip": "Odev1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAYAAAA",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\DateTimeveMath\\Program.cs",
+              "RelativeDocumentMoniker": "DateTimeveMath\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\DateTimeveMath\\Program.cs",
+              "RelativeToolTip": "DateTimeveMath\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAowDoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:35:44.286Z",
+              "WhenOpened": "2024-06-01T09:41:06.912Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\RecursiveExtensionMetot\\Program.cs",
-              "RelativeDocumentMoniker": "RecursiveExtensionMetot\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\RecursiveExtensionMetot\\Program.cs",
-              "RelativeToolTip": "RecursiveExtensionMetot\\Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwCYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T09:05:30.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\MetotOverloading\\Program.cs",
-              "RelativeDocumentMoniker": "MetotOverloading\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\MetotOverloading\\Program.cs",
-              "RelativeToolTip": "MetotOverloading\\Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwBoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T08:02:23.298Z"
             }
           ]
         }
