@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveExtensionMetot", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev1", "Odev1\Odev1.csproj", "{2457FA67-6023-4719-A40A-703377C24927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMetotlar", "StringMetotlar\StringMetotlar.csproj", "{A2D536E9-6C6F-4189-AED8-86B8BEA83A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringMetotlar", "StringMetotlar\StringMetotlar.csproj", "{A2D536E9-6C6F-4189-AED8-86B8BEA83A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeveMath", "DateTimeveMath\DateTimeveMath.csproj", "{72056AA4-FF23-470C-AE0D-01D3510DC325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeveMath", "DateTimeveMath\DateTimeveMath.csproj", "{72056AA4-FF23-470C-AE0D-01D3510DC325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericList", "GenericList\GenericList.csproj", "{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{72056AA4-FF23-470C-AE0D-01D3510DC325}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72056AA4-FF23-470C-AE0D-01D3510DC325}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72056AA4-FF23-470C-AE0D-01D3510DC325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

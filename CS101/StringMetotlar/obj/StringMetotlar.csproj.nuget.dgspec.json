@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\StringMetotlar.csproj": {}
+    "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\StringMetotlar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\StringMetotlar.csproj": {
+    "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\StringMetotlar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\StringMetotlar.csproj",
+        "projectUniqueName": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\StringMetotlar.csproj",
         "projectName": "StringMetotlar",
-        "projectPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\StringMetotlar.csproj",
+        "projectPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\StringMetotlar.csproj",
         "packagesPath": "C:\\Users\\oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\obj\\",
+        "outputPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\StringMetotlar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

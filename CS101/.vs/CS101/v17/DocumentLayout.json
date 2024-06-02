@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72056AA4-FF23-470C-AE0D-01D3510DC325}|DateTimeveMath\\DateTimeveMath.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\datetimevemath\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72056AA4-FF23-470C-AE0D-01D3510DC325}|DateTimeveMath\\DateTimeveMath.csproj|solutionrelative:datetimevemath\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}|GenericList\\GenericList.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\genericlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}|GenericList\\GenericList.csproj|solutionrelative:genericlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\DateTimeveMath\\Program.cs",
-              "RelativeDocumentMoniker": "DateTimeveMath\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\DateTimeveMath\\Program.cs",
-              "RelativeToolTip": "DateTimeveMath\\Program.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAowDoAAAAzAAAA",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\GenericList\\Program.cs",
+              "RelativeDocumentMoniker": "GenericList\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\GenericList\\Program.cs",
+              "RelativeToolTip": "GenericList\\Program.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAQwFkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T09:41:06.912Z",
+              "WhenOpened": "2024-06-02T06:27:08.662Z",
               "EditorCaption": ""
             }
           ]
