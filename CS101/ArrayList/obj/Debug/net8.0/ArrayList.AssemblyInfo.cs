@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Degisken")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ArrayList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+186e5b0594ffb1422dda9fee80eb772b5c45b90d")]
-[assembly: System.Reflection.AssemblyProductAttribute("Degisken")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Degisken")]
+[assembly: System.Reflection.AssemblyProductAttribute("ArrayList")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ArrayList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
