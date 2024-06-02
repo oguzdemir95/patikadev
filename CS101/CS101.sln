@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KurucuMetotlar", "KurucuMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{D1799113-D304-458A-860D-B7673A513340}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatikSiniflar", "StatikSiniflar\StatikSiniflar.csproj", "{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{D1799113-D304-458A-860D-B7673A513340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1799113-D304-458A-860D-B7673A513340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1799113-D304-458A-860D-B7673A513340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
