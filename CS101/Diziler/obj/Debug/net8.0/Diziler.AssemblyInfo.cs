@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diziler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b89c52259ab62d34fffd442d93cb97108931cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d694380072e8b1910587a8ff947d7def68ec01b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diziler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diziler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

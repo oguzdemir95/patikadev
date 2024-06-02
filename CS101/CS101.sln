@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siniflar", "Siniflar\Sinifl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KurucuMetotlar", "KurucuMetotlar\KurucuMetotlar.csproj", "{A563E15D-3B36-4191-8590-17A1C7F90AAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{D1799113-D304-458A-860D-B7673A513340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{A563E15D-3B36-4191-8590-17A1C7F90AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A563E15D-3B36-4191-8590-17A1C7F90AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A563E15D-3B36-4191-8590-17A1C7F90AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1799113-D304-458A-860D-B7673A513340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1799113-D304-458A-860D-B7673A513340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1799113-D304-458A-860D-B7673A513340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1799113-D304-458A-860D-B7673A513340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
