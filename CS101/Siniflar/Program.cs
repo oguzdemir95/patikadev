@@ -28,6 +28,7 @@ class Calisan
     public int No;
     public string Departman;
 
+    
     public void CalisanBilgileri()
     {
         Console.WriteLine("Çalışanın Adı: {0}", Ad);

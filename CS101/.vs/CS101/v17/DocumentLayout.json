@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81CDA057-7EED-46B4-891A-F34062CBE358}|Odev2\\Odev2.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\odev2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81CDA057-7EED-46B4-891A-F34062CBE358}|Odev2\\Odev2.csproj|solutionrelative:odev2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81CDA057-7EED-46B4-891A-F34062CBE358}|Odev2\\Odev2.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\odev2\\sorular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81CDA057-7EED-46B4-891A-F34062CBE358}|Odev2\\Odev2.csproj|solutionrelative:odev2\\sorular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A563E15D-3B36-4191-8590-17A1C7F90AAE}|KurucuMetotlar\\KurucuMetotlar.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\kurucumetotlar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A563E15D-3B36-4191-8590-17A1C7F90AAE}|KurucuMetotlar\\KurucuMetotlar.csproj|solutionrelative:kurucumetotlar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,26 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Odev2\\Program.cs",
-              "RelativeDocumentMoniker": "Odev2\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Odev2\\Program.cs*",
-              "RelativeToolTip": "Odev2\\Program.cs*",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowBAAAAAfAAAA",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\KurucuMetotlar\\Program.cs",
+              "RelativeDocumentMoniker": "KurucuMetotlar\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\KurucuMetotlar\\Program.cs",
+              "RelativeToolTip": "KurucuMetotlar\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T10:04:49.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sorular.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Odev2\\Sorular.cs",
-              "RelativeDocumentMoniker": "Odev2\\Sorular.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Odev2\\Sorular.cs",
-              "RelativeToolTip": "Odev2\\Sorular.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAYwGAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T09:45:22.306Z",
+              "WhenOpened": "2024-06-02T12:09:20.731Z",
               "EditorCaption": ""
             }
           ]
