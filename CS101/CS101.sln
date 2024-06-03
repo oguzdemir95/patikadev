@@ -35,21 +35,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringMetotlar", "StringMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeveMath", "DateTimeveMath\DateTimeveMath.csproj", "{72056AA4-FF23-470C-AE0D-01D3510DC325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericList", "GenericList\GenericList.csproj", "{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericList", "GenericList\GenericList.csproj", "{92FFC00E-1ECA-447D-BA20-91CB6F985FA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList", "ArrayList\ArrayList.csproj", "{B123B146-4B2F-4386-98F9-BF39EB737198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList", "ArrayList\ArrayList.csproj", "{B123B146-4B2F-4386-98F9-BF39EB737198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{9A1110CB-0FB3-4093-8F6E-3C06C6A04BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{9A1110CB-0FB3-4093-8F6E-3C06C6A04BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev2", "Odev2\Odev2.csproj", "{81CDA057-7EED-46B4-891A-F34062CBE358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev2", "Odev2\Odev2.csproj", "{81CDA057-7EED-46B4-891A-F34062CBE358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siniflar", "Siniflar\Siniflar.csproj", "{B7B3B67E-1A4F-4D52-BEE8-3A47ED9F59C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Siniflar", "Siniflar\Siniflar.csproj", "{B7B3B67E-1A4F-4D52-BEE8-3A47ED9F59C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KurucuMetotlar", "KurucuMetotlar\KurucuMetotlar.csproj", "{A563E15D-3B36-4191-8590-17A1C7F90AAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KurucuMetotlar", "KurucuMetotlar\KurucuMetotlar.csproj", "{A563E15D-3B36-4191-8590-17A1C7F90AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{D1799113-D304-458A-860D-B7673A513340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{D1799113-D304-458A-860D-B7673A513340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatikSiniflar", "StatikSiniflar\StatikSiniflar.csproj", "{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatikSiniflar", "StatikSiniflar\StatikSiniflar.csproj", "{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumKullanimi", "EnumKullanimi\EnumKullanimi.csproj", "{5FEA470A-02D8-4174-8255-449F0E74B393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31A89C57-7DEC-49C2-8EF8-ACD2C51DC864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEA470A-02D8-4174-8255-449F0E74B393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEA470A-02D8-4174-8255-449F0E74B393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEA470A-02D8-4174-8255-449F0E74B393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEA470A-02D8-4174-8255-449F0E74B393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
