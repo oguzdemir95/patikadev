@@ -30,6 +30,12 @@ namespace Inheritance
             Console.WriteLine("Sürüngenler sürünerek hareket eder");
         }
 
+        public override void UyaranaTepki()
+        {
+            base.UyaranaTepki();
+            Console.WriteLine("Hayvanlar temasa tepki verir");
+        }
+
     }
 
     public class Kuslar:Hayvanlar
@@ -40,6 +46,7 @@ namespace Inheritance
             base.Beslenme();
             base.Bosaltim();
             base.Solunum();
+            base.UyaranaTepki();
         }
         public void Ucmak()
         {

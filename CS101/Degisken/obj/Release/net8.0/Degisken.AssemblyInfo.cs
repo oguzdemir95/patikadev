@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Degisken")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f940b497cf819b2328438113351d051c0057758")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+296204b7418bb5c661b4dd9c055bc87caade350a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Degisken")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Degisken")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

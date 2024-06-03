@@ -22,10 +22,17 @@ namespace Inheritance
             base.Beslenme();
             base.Bosaltim();
             base.Solunum();
+            base.UyaranaTepki();
         }
         public void TohumlaCogalma()
         {
             Console.WriteLine("Tohumlu bitkiler tohumla çoğalır");
+        }
+
+        public override void UyaranaTepki()
+        {
+            //base.UyaranaTepki();
+            Console.WriteLine("Bitkiler güneşe tepki verir");
         }
     }
 
@@ -34,6 +41,9 @@ namespace Inheritance
         public TohumsuzBitkiler()
         {
             base.Fotosentez();
+            base.Beslenme();
+            base.Bosaltim();
+            base.Solunum();
         }
         public void SporlaCogalma()
         {
