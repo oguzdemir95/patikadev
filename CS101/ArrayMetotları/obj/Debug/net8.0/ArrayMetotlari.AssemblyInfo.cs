@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArrayMetotlari")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f940b497cf819b2328438113351d051c0057758")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57b1178ea43c509c39f7b1f8971632125e8711ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArrayMetotlari")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArrayMetotlari")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
