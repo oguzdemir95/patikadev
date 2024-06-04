@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D97D08F-A551-4524-B8D6-9D734C85D195}|Inheritance\\Inheritance.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\inheritance\\canlilar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D97D08F-A551-4524-B8D6-9D734C85D195}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\canlilar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\soyutsinif\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|solutionrelative:soyutsinif\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D97D08F-A551-4524-B8D6-9D734C85D195}|Inheritance\\Inheritance.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\inheritance\\hayvanlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D97D08F-A551-4524-B8D6-9D734C85D195}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\hayvanlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFC2AA49-0D08-4DFE-8F69-4F1210D2F863}|ArayuzOrnek\\ArayuzOrnek.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\arayuzornek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFC2AA49-0D08-4DFE-8F69-4F1210D2F863}|ArayuzOrnek\\ArayuzOrnek.csproj|solutionrelative:arayuzornek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D97D08F-A551-4524-B8D6-9D734C85D195}|Inheritance\\Inheritance.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\inheritance\\bitkiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D97D08F-A551-4524-B8D6-9D734C85D195}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\bitkiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\soyutsinif\\yenicivic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|solutionrelative:soyutsinif\\yenicivic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D97D08F-A551-4524-B8D6-9D734C85D195}|Inheritance\\Inheritance.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D97D08F-A551-4524-B8D6-9D734C85D195}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\soyutsinif\\yenicorolla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|solutionrelative:soyutsinif\\yenicorolla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\soyutsinif\\yenifocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|solutionrelative:soyutsinif\\yenifocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|c:\\users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\cs101\\soyutsinif\\otomobil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908FB0CA-182F-4CEA-AC3C-459399022259}|SoyutSinif\\SoyutSinif.csproj|solutionrelative:soyutsinif\\otomobil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,53 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Hayvanlar.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Inheritance\\Hayvanlar.cs",
-              "RelativeDocumentMoniker": "Inheritance\\Hayvanlar.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Inheritance\\Hayvanlar.cs",
-              "RelativeToolTip": "Inheritance\\Hayvanlar.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwDAAAAAgAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArayuzOrnek\\Program.cs",
+              "RelativeDocumentMoniker": "ArayuzOrnek\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\ArayuzOrnek\\Program.cs",
+              "RelativeToolTip": "ArayuzOrnek\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:42:37.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bitkiler.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Inheritance\\Bitkiler.cs",
-              "RelativeDocumentMoniker": "Inheritance\\Bitkiler.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Inheritance\\Bitkiler.cs",
-              "RelativeToolTip": "Inheritance\\Bitkiler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:42:27.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Canlilar.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Inheritance\\Canlilar.cs",
-              "RelativeDocumentMoniker": "Inheritance\\Canlilar.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Inheritance\\Canlilar.cs",
-              "RelativeToolTip": "Inheritance\\Canlilar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:42:08.185Z",
+              "WhenOpened": "2024-06-04T07:54:31.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Inheritance\\Program.cs",
-              "RelativeDocumentMoniker": "Inheritance\\Program.cs",
-              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\Inheritance\\Program.cs",
-              "RelativeToolTip": "Inheritance\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Title": "YeniCorolla.cs",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\YeniCorolla.cs",
+              "RelativeDocumentMoniker": "SoyutSinif\\YeniCorolla.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\YeniCorolla.cs",
+              "RelativeToolTip": "SoyutSinif\\YeniCorolla.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:39:32.333Z",
+              "WhenOpened": "2024-06-04T07:50:29.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YeniCivic.cs",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\YeniCivic.cs",
+              "RelativeDocumentMoniker": "SoyutSinif\\YeniCivic.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\YeniCivic.cs",
+              "RelativeToolTip": "SoyutSinif\\YeniCivic.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T07:50:21.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "YeniFocus.cs",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\YeniFocus.cs",
+              "RelativeDocumentMoniker": "SoyutSinif\\YeniFocus.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\YeniFocus.cs",
+              "RelativeToolTip": "SoyutSinif\\YeniFocus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T07:50:13.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Otomobil.cs",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\Otomobil.cs",
+              "RelativeDocumentMoniker": "SoyutSinif\\Otomobil.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\Otomobil.cs",
+              "RelativeToolTip": "SoyutSinif\\Otomobil.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T07:45:12.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\Program.cs",
+              "RelativeDocumentMoniker": "SoyutSinif\\Program.cs",
+              "ToolTip": "C:\\Users\\o\u011Fuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\SoyutSinif\\Program.cs",
+              "RelativeToolTip": "SoyutSinif\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T07:43:54.449Z",
               "EditorCaption": ""
             }
           ]

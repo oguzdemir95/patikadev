@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\EnumKullanimi.csproj": {}
+    "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\EnumKullanimi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\EnumKullanimi.csproj": {
+    "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\EnumKullanimi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\EnumKullanimi.csproj",
+        "projectUniqueName": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\EnumKullanimi.csproj",
         "projectName": "EnumKullanimi",
-        "projectPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\EnumKullanimi.csproj",
+        "projectPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\EnumKullanimi.csproj",
         "packagesPath": "C:\\Users\\oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oğuzhan\\source\\repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\obj\\",
+        "outputPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS101\\EnumKullanimi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
