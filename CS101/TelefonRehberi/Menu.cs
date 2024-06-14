@@ -35,24 +35,53 @@ namespace TelefonRehberi
             switch (secim)
             {
                 case 1:
+                    Console.Clear();
                     Islemler.KisiKaydet();
+                    AnaMenuyeDon();
                     break;
                 case 2:
+                    Console.Clear();
                     Islemler.KisiSil();
+                    AnaMenuyeDon();
                     break;
                 case 3:
+                    Console.Clear();
                     Islemler.KisiGuncelle();
+                    AnaMenuyeDon();
                     break;
                 case 4:
+                    Console.Clear();
                     Islemler.KisiListele();
+                    AnaMenuyeDon();
                     break;
                 case 5:
+                    Console.Clear();
                     Islemler.KisiAra();
+                    AnaMenuyeDon();
                     break;
                 default:
                     Console.WriteLine("Geçersiz giriş.");
                     Console.WriteLine();
                     break;
+            }
+        }
+        public static void AnaMenuyeDon()
+        {
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Ana menüye dönmek için m harfine basınız.");
+                string s = Console.ReadLine().ToUpper();
+
+                if(s=="M")
+                {
+                    Console.Clear();
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("Geçersiz giriş. Lütfen tekrar deneyiniz.");
+                }
             }
         }
     }

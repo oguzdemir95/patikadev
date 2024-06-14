@@ -10,11 +10,10 @@ namespace TelefonRehberi
     {
         public static void KisiKaydet()
         {
-            Console.WriteLine();
-            Console.WriteLine("----------------");
             Console.WriteLine("Yeni Kişi Kaydı");
-
+            Console.WriteLine("---------------");
             Rehber kisi = Rehber.Kisi();
+
             while (true)
             {
                 Console.Write("Lütfen isim giriniz: ");
@@ -56,9 +55,8 @@ namespace TelefonRehberi
         }
         public static void KisiSil()
         {
-            Console.WriteLine();
-            Console.WriteLine("------------");
             Console.WriteLine("Kişi Silme");
+            Console.WriteLine("----------");
             Rehber kisi = Rehber.Kisi();
 
             while (true)
@@ -111,9 +109,8 @@ namespace TelefonRehberi
         }
         public static void KisiGuncelle()
         {
-            Console.WriteLine();
-            Console.WriteLine("---------------------------");
             Console.WriteLine("Kişi Bilgileri Güncelleme");
+            Console.WriteLine("-------------------------");
             Rehber kisi = Rehber.Kisi();
 
             while (true)
@@ -180,10 +177,8 @@ namespace TelefonRehberi
         }
         public static void KisiListele()
         {
-
-            Console.WriteLine();
-            Console.WriteLine("-------------------");
             Console.WriteLine("Rehberdeki Kişiler");
+            Console.WriteLine("------------------");
             Rehber kisi = Rehber.Kisi();
             kisi.Kayitlar.Sort();
 
@@ -191,13 +186,12 @@ namespace TelefonRehberi
             {
                 string[] veri = k.Split(' ');
                 string numara = veri[2];
-                Console.WriteLine($"İsim: {veri[0]} Soyisim: {veri[1]} Numara: {Kontrol.TelefonFormati(numara)}");
+                Console.WriteLine($"İsim: {veri[0],-10} Soyisim: {veri[1],-10} Numara: {Kontrol.TelefonFormati(numara),-15}");
+                
             }
-            Console.WriteLine();
         }
         public static void KisiAra()
         {
-            Console.WriteLine("-------------------------------------------------");
             Console.WriteLine("Arama yapmak istediğiniz tipi seçiniz.");
             Console.WriteLine("İsim veya soyisime göre arama yapmak için: (1)");
             Console.WriteLine("Telefon numarasına göre arama yapmak için: (2) ");
