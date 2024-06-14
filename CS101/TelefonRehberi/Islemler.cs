@@ -24,33 +24,16 @@ namespace TelefonRehberi
 
                 Console.Write("Lütfen telefon numarası giriniz: ");
                 kisi.Numara = Console.ReadLine();
-                if (!Kontrol.HepsiHarfMi(kisi.Isim))
+                
+                if(!Kontrol.YazimKontrol())
                 {
-                    Console.WriteLine("İsim ve soyisim bilgileri yalnızca harflerden oluşmalıdır!");
                     continue;
                 }
-                else if (!Kontrol.HepsiHarfMi(kisi.Soyisim))
-                {
-                    Console.WriteLine("İsim ve soyisim bilgileri yalnızca harflerden oluşmalıdır!");
-                    continue;
-                }
-                else if (!Kontrol.HepsiNumaraMi(kisi.Numara))
-                {
-                    Console.WriteLine("Telefon numarası yalnızca rakamlardan oluşmalıdır!");
-                    continue;
-                }
-                else if (!Kontrol.NumaraHane(kisi.Numara))
-                {
-                    Console.WriteLine("Telefon numarası 10 haneden küçük veya 11 haneden büyük olamaz!");
-                    continue;
-                }
-                else
-                {
-                    string kayit = kisi.Isim + " " + kisi.Soyisim + " " + kisi.Numara;
-                    kisi.Kayitlar.Add(kayit);
-                    Console.WriteLine("Kişi rehbere başarıyla kaydedildi.");
-                    break;
-                }
+
+                string kayit = kisi.Isim + " " + kisi.Soyisim + " " + kisi.Numara;
+                kisi.Kayitlar.Add(kayit);
+                Console.WriteLine("Kişi rehbere başarıyla kaydedildi.");
+                break;
             }
         }
         public static void KisiSil()
@@ -64,9 +47,8 @@ namespace TelefonRehberi
                 Console.Write("Silmek istediğiniz kişinin ismini veya soyismini giriniz: ");
 
                 string bilgi = Console.ReadLine();
-                if (!Kontrol.HepsiHarfMi(bilgi))
+                if (!Kontrol.AramaKontrol(bilgi))
                 {
-                    Console.WriteLine("Kişi bilgilerinde geçersiz karakter var, lütfen tekrar deneyiniz!");
                     continue;
                 }
 
@@ -83,6 +65,7 @@ namespace TelefonRehberi
                     }
                     else
                     {
+                        Console.WriteLine();
                         string[] adSoyad = silinecekKisi.Split(' ');
                         Console.WriteLine($"'{adSoyad[0]} {adSoyad[1]}' kişisi silinecektir, onaylıyor musunuz? (Y/N)");
                         string onay = Console.ReadLine();
@@ -99,7 +82,7 @@ namespace TelefonRehberi
                         }
                         else
                         {
-                            Console.WriteLine("Geçersiz seçim. Lütfen yukarıdaki seçeneklerden birini yazınız.");
+                            Console.WriteLine("Geçersiz giriş. Lütfen tekrar deneyin.");
                         }
                     }
 
@@ -118,9 +101,9 @@ namespace TelefonRehberi
                 Console.Write("Güncellemek istediğiniz kişinin ismini veya soyismini giriniz: ");
 
                 string bilgi = Console.ReadLine();
-                if (!Kontrol.HepsiHarfMi(bilgi))
+                if (!Kontrol.AramaKontrol(bilgi))
                 {
-                    Console.WriteLine("Kişi bilgilerinde geçersiz karakter var, lütfen tekrar deneyiniz!");
+                    continue;
                 }
                 while (true)
                 {
@@ -145,26 +128,12 @@ namespace TelefonRehberi
 
                         Console.Write("Lütfen yeni telefon numarasını giriniz: ");
                         kisi.Numara = Console.ReadLine();
-                        if (!Kontrol.HepsiHarfMi(kisi.Isim))
+
+                        if (!Kontrol.YazimKontrol())
                         {
-                            Console.WriteLine("İsim ve soyisim bilgileri yalnızca harflerden oluşmalıdır!");
                             continue;
                         }
-                        if (!Kontrol.HepsiHarfMi(kisi.Soyisim))
-                        {
-                            Console.WriteLine("İsim ve soyisim bilgileri yalnızca harflerden oluşmalıdır!");
-                            continue;
-                        }
-                        if (!Kontrol.HepsiNumaraMi(kisi.Numara))
-                        {
-                            Console.WriteLine("Telefon numarası yalnızca rakamlardan oluşmalıdır!");
-                            continue;
-                        }
-                        if (!Kontrol.NumaraHane(kisi.Numara))
-                        {
-                            Console.WriteLine("Telefon numarası 10 haneden küçük veya 11 haneden büyük olamaz!");
-                            continue;
-                        }
+
                         string kayit = kisi.Isim + " " + kisi.Soyisim + " " + kisi.Numara;
                         kisi.Kayitlar.Remove(guncellenecekKisi);
                         kisi.Kayitlar.Add(kayit);
@@ -184,102 +153,108 @@ namespace TelefonRehberi
 
             foreach (var k in kisi.Kayitlar)
             {
-                string[] veri = k.Split(' ');
-                string numara = veri[2];
-                Console.WriteLine($"İsim: {veri[0],-10} Soyisim: {veri[1],-10} Numara: {Kontrol.TelefonFormati(numara),-15}");
-                
+                KisiYazdir(k);
             }
         }
         public static void KisiAra()
         {
             Console.WriteLine("Arama yapmak istediğiniz tipi seçiniz.");
-            Console.WriteLine("İsim veya soyisime göre arama yapmak için: (1)");
-            Console.WriteLine("Telefon numarasına göre arama yapmak için: (2) ");
-            string secim = Console.ReadLine();
+            
             Rehber kisi = Rehber.Kisi();
             bool kontrol = false;
             kisi.Kayitlar.Sort();
-
-            if (secim == "1")
+            while (true)
             {
-                while (true)
+                Console.WriteLine("İsim veya soyisime göre arama yapmak için: (1)");
+                Console.WriteLine("Telefon numarasına göre arama yapmak için: (2) ");
+                string secim = Console.ReadLine();
+                if (secim == "1")
                 {
-                    Console.Write("Aramak istediğiniz kişinin isim veya soyismini giriniz: ");
-                    string kisiBilgi = Console.ReadLine();
-                    if (!Kontrol.HepsiHarfMi(kisiBilgi))
+                    while (true)
                     {
-                        Console.WriteLine("İsim ve soyisim bilgileri yalnızca harflerden oluşmalıdır!");
-                        continue;
-                    }
-                    else
-                    {
-                        foreach (var kayit in kisi.Kayitlar)
+                        Console.Write("Aramak istediğiniz kişinin isim veya soyismini giriniz: ");
+                        string kisiBilgi = Console.ReadLine();
+                        if(!Kontrol.AramaKontrol(kisiBilgi))
                         {
-                            string kayitKucuk = kayit.ToLower();
-
-                            if (kayitKucuk.Contains(kisiBilgi))
-                            {
-                                Console.WriteLine(kayit);
-                                kontrol = true;
-                            }
+                            continue;
                         }
-
-                        if (!kontrol)
+                        else
                         {
-                            Console.WriteLine("Aradığınız kişi bulunamadı! Lütfen bir seçim yapınız: ");
-                            if(!Kontrol.BulunamadiSecim())
+                            foreach (var kayit in kisi.Kayitlar)
                             {
-                                return;
-                            }
-                            else
-                            {
-                                continue;
+                                string kayitKucuk = kayit.ToLower();
+
+                                if (kayitKucuk.Contains(kisiBilgi))
+                                {
+                                    KisiYazdir(kayit);
+                                    kontrol = true;
+                                }
                             }
 
+                            if (!kontrol)
+                            {
+                                Console.WriteLine("Aradığınız kişi bulunamadı! Lütfen bir seçim yapınız: ");
+                                if (!Kontrol.BulunamadiSecim())
+                                {
+                                    return;
+                                }
+                                else
+                                {
+                                    continue;
+                                }
+
+                            }
+                            break;
                         }
-                        break;
                     }
                 }
-            }
-            if (secim == "2")
-            {
-                while (true)
+                else if (secim == "2")
                 {
-                    Console.Write("Aramak istediğiniz kişinin numarasını giriniz: ");
-
-                    string numara = Console.ReadLine();
-                    if (!Kontrol.HepsiNumaraMi(numara))
+                    while (true)
                     {
-                        Console.WriteLine("Telefon numarası yalnızca rakamlardan oluşmalıdır!");
-                        continue;
-                    }
-                    else
-                    {
-                        foreach (var num in kisi.Kayitlar)
-                        {
-                            if (num.Contains(numara))
-                            {
-                                Console.WriteLine(num);
-                                kontrol = true;
-                            }
-                        }
-                        if (!kontrol)
-                        {
-                            Console.WriteLine("Aradığınız numara bulunamadı! Lütfen bir seçim yapınız: ");
-                            if (!Kontrol.BulunamadiSecim())
-                            {
-                                return;
-                            }
-                            else
-                            {
-                                continue;
-                            }
-                        }
-                        break;
-                    }
+                        Console.Write("Aramak istediğiniz kişinin numarasını giriniz: ");
 
+                        string numara = Console.ReadLine();
+                        if (!Kontrol.HepsiNumaraMi(numara))
+                        {
+                            Console.WriteLine("Telefon numarası yalnızca rakamlardan oluşmalıdır!");
+                            continue;
+                        }
+                        else
+                        {
+                            foreach (var num in kisi.Kayitlar)
+                            {
+                                if (num.Contains(numara))
+                                {
+                                    KisiYazdir(num);
+                                    kontrol = true;
+                                }
+                            }
+                            if (!kontrol)
+                            {
+                                Console.WriteLine("Aradığınız numara bulunamadı! Lütfen bir seçim yapınız: ");
+                                if (!Kontrol.BulunamadiSecim())
+                                {
+                                    return;
+                                }
+                                else
+                                {
+                                    continue;
+                                }
+                            }
+                            break;
+                        }
+
+                    }
                 }
+                else
+                {
+                    Console.WriteLine("Geçersiz giriş. Lütfen tekrar deneyin.");
+                    continue;
+                }
+                break;
             }
+            
 
         }
         public static string KisiAra(string kisiBilgi)
@@ -298,7 +273,7 @@ namespace TelefonRehberi
 
                     if (kayitKucuk.Contains(kisiBilgi))
                     {
-                        Console.WriteLine(kayit);
+                        KisiYazdir(kayit);
                         aramaSonuclari.Add(kayit);
                         kontrol = true;
                     }
@@ -320,5 +295,34 @@ namespace TelefonRehberi
             }
 
         }
+        public static void KisiYazdir(string kayit)
+        {
+            string[] veri = kayit.Split(' ');
+            string numara = veri[2];
+            Console.WriteLine($"İsim: {veri[0],-10} Soyisim: {veri[1],-10} Numara: {TelefonFormati(numara),-15}");
+        }
+        public static string TelefonFormati(string numara)
+        {
+            string duzenlenenNumara;
+
+            if (numara.StartsWith("0"))
+            {
+                duzenlenenNumara = string.Format("0({0}) {1}-{2}-{3}",
+                            numara.Substring(1, 3),
+                            numara.Substring(4, 3),
+                            numara.Substring(7, 2),
+                            numara.Substring(9, 2));
+            }
+            else
+            {
+                duzenlenenNumara = string.Format("0({0}) {1}-{2}-{3}",
+                            numara.Substring(0, 3),
+                            numara.Substring(3, 3),
+                            numara.Substring(6, 2),
+                            numara.Substring(8, 2));
+            }
+            return duzenlenenNumara;
+        }
+
     }
 }

@@ -26,32 +26,10 @@ namespace TelefonRehberi
             }
             return true;
         }
-        public static string TelefonFormati(string numara)
-        {
-            string duzenlenenNumara;
-
-            if (numara.StartsWith("0"))
-            {
-                duzenlenenNumara = string.Format("0({0}) {1}-{2}-{3}",
-                            numara.Substring(1, 3),
-                            numara.Substring(4, 3),
-                            numara.Substring(7, 2),
-                            numara.Substring(9, 2));
-            }
-            else
-            {
-                duzenlenenNumara = string.Format("0({0}) {1}-{2}-{3}",
-                            numara.Substring(0, 3),
-                            numara.Substring(3, 3),
-                            numara.Substring(6, 2),
-                            numara.Substring(8, 2));
-            }
-            return duzenlenenNumara;
-        }
         public static bool NumaraHane(string numara)
         {
             bool kontrol = true;
-            if (numara.Length < 10||numara.Length>11)
+            if (numara.Length < 10 || numara.Length > 11)
             {
                 kontrol = false;
             }
@@ -74,6 +52,53 @@ namespace TelefonRehberi
                     return BulunamadiSecim();
             }
             return kontrol;
+        }
+        public static bool YazimKontrol()
+        {
+            bool kontrol = true;
+            Rehber kisi = Rehber.Kisi();
+            while (true)
+            {
+                if (!HepsiHarfMi(kisi.Isim))
+                {
+                    Console.WriteLine("İsim ve soyisim bilgileri yalnızca harflerden oluşmalıdır!");
+                    kontrol = false;
+                    return kontrol;
+                }
+                if (!HepsiHarfMi(kisi.Soyisim))
+                {
+                    Console.WriteLine("İsim ve soyisim bilgileri yalnızca harflerden oluşmalıdır!");
+                    kontrol = false;
+                    return kontrol;
+                }
+                if (!HepsiNumaraMi(kisi.Numara))
+                {
+                    Console.WriteLine("Telefon numarası yalnızca rakamlardan oluşmalıdır!");
+                    kontrol = false;
+                    return kontrol;
+                }
+                if (!NumaraHane(kisi.Numara))
+                {
+                    Console.WriteLine("Telefon numarası 10 haneden küçük veya 11 haneden büyük olamaz!");
+                    kontrol = false;
+                    return kontrol;
+                }
+                return kontrol;
+            }
+        }
+        public static bool AramaKontrol(string bilgi)
+        {
+            bool kontrol = true;
+            while (true)
+            {
+                if (!HepsiHarfMi(bilgi))
+                {
+                    Console.WriteLine("İsim ve soyisim bilgileri yalnızca harflerden oluşmalıdır!");
+                    kontrol=false;
+                    return kontrol;
+                }
+                return kontrol;
+            }
         }
     }
 }
