@@ -35,19 +35,19 @@ namespace TelefonRehberi
             switch (secim)
             {
                 case 1:
-                    Rehber.KisiKaydet();
+                    Islemler.KisiKaydet();
                     break;
                 case 2:
-                    Rehber.KisiSil();
+                    Islemler.KisiSil();
                     break;
                 case 3:
-                    Rehber.KisiGuncelle();
+                    Islemler.KisiGuncelle();
                     break;
                 case 4:
-                    Rehber.KisiListele();
+                    Islemler.KisiListele();
                     break;
                 case 5:
-                    Rehber.KisiAra();
+                    Islemler.KisiAra();
                     break;
                 default:
                     Console.WriteLine("Geçersiz giriş.");
