@@ -7,7 +7,7 @@ internal class Program
         while (true)
         {
             Menu.Menuler();
-            int secim = Menu.SecimYap();
+            string secim = Console.ReadLine();
             Menu.SecimiUygula(secim);
         }
     }

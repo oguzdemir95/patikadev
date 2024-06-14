@@ -29,7 +29,7 @@ namespace TelefonRehberi
         public static bool NumaraHane(string numara)
         {
             bool kontrol = true;
-            if (numara.Length < 10 || numara.Length > 11)
+            if (numara.Length != 11)
             {
                 kontrol = false;
             }
@@ -79,7 +79,7 @@ namespace TelefonRehberi
                 }
                 if (!NumaraHane(kisi.Numara))
                 {
-                    Console.WriteLine("Telefon numarası 10 haneden küçük veya 11 haneden büyük olamaz!");
+                    Console.WriteLine("Telefon numarasını kontrol ediniz!");
                     kontrol = false;
                     return kontrol;
                 }

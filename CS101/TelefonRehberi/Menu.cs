@@ -19,42 +19,31 @@ namespace TelefonRehberi
             Console.WriteLine("(5) Rehberde Arama Yapmak");
             Console.Write("Seçim: ");
         }
-        public static int SecimYap()
-        {
-            int secim;
-            while (!int.TryParse(Console.ReadLine(), out secim))
-            {
-                Console.WriteLine("Geçersiz giriş.");
-                Console.WriteLine();
-                Menuler();
-            }
-            return secim;
-        }
-        public static void SecimiUygula(int secim)
+        public static void SecimiUygula(string secim)
         {
             switch (secim)
             {
-                case 1:
+                case "1":
                     Console.Clear();
                     Islemler.KisiKaydet();
                     AnaMenuyeDon();
                     break;
-                case 2:
+                case "2":
                     Console.Clear();
                     Islemler.KisiSil();
                     AnaMenuyeDon();
                     break;
-                case 3:
+                case "3":
                     Console.Clear();
                     Islemler.KisiGuncelle();
                     AnaMenuyeDon();
                     break;
-                case 4:
+                case "4":
                     Console.Clear();
                     Islemler.KisiListele();
                     AnaMenuyeDon();
                     break;
-                case 5:
+                case "5":
                     Console.Clear();
                     Islemler.KisiAra();
                     AnaMenuyeDon();

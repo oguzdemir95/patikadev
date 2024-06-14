@@ -22,9 +22,10 @@ namespace TelefonRehberi
                 Console.Write("Lütfen soyisim giriniz: ");
                 kisi.Soyisim = Console.ReadLine();
 
-                Console.Write("Lütfen telefon numarası giriniz: ");
+                Console.Write("Lütfen telefon numarası giriniz: 05");
                 kisi.Numara = Console.ReadLine();
-                
+                kisi.Numara = "05" + kisi.Numara;
+
                 if(!Kontrol.YazimKontrol())
                 {
                     continue;
@@ -126,8 +127,9 @@ namespace TelefonRehberi
                         Console.Write("Lütfen yeni soyismi giriniz: ");
                         kisi.Soyisim = Console.ReadLine();
 
-                        Console.Write("Lütfen yeni telefon numarasını giriniz: ");
+                        Console.Write("Lütfen yeni telefon numarasını giriniz: 05");
                         kisi.Numara = Console.ReadLine();
+                        kisi.Numara = "05" + kisi.Numara;
 
                         if (!Kontrol.YazimKontrol())
                         {
@@ -146,15 +148,45 @@ namespace TelefonRehberi
         }
         public static void KisiListele()
         {
-            Console.WriteLine("Rehberdeki Kişiler");
-            Console.WriteLine("------------------");
-            Rehber kisi = Rehber.Kisi();
-            kisi.Kayitlar.Sort();
-
-            foreach (var k in kisi.Kayitlar)
+            Console.WriteLine("Rehberdeki kişileri nasıl sıralamak istiyorsunuz?");
+            while (true)
             {
-                KisiYazdir(k);
+                Console.WriteLine("A-Z Sıralı: (1)");
+                Console.WriteLine("Z-A Sıralı: (2)");
+                string s = Console.ReadLine();
+                if (s == "1")
+                {
+                    Console.WriteLine("Rehberdeki Kişiler (A-Z)");
+                    Console.WriteLine("------------------");
+                    Rehber kisi = Rehber.Kisi();
+                    kisi.Kayitlar.Sort();
+
+                    foreach (var k in kisi.Kayitlar)
+                    {
+                        KisiYazdir(k);
+                    }
+                    break;
+                }
+                else if (s == "2")
+                {
+                    Console.WriteLine("Rehberdeki Kişiler (Z-A)");
+                    Console.WriteLine("------------------");
+                    Rehber kisi = Rehber.Kisi();
+                    kisi.Kayitlar.Sort();
+                    kisi.Kayitlar.Reverse();
+
+                    foreach (var k in kisi.Kayitlar)
+                    {
+                        KisiYazdir(k);
+                    }
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Geçersiz giriş. Lütfen tekrar deneyin.");
+                }
             }
+            
         }
         public static void KisiAra()
         {
