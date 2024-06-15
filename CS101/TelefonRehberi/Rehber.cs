@@ -2,39 +2,35 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace TelefonRehberi
 {
     internal class Rehber
     {
-        private string _isim;
-        private string _soyisim;
-        private string _numara;
-        private static Rehber _kisi;
-        private List<string> _kayitlar;
+        private static Rehber _rehber;
+        private List<Kisi> _kayitlar;
 
-        public string Isim { get => _isim; set => _isim = value; }
-        public string Soyisim { get => _soyisim; set => _soyisim = value; }
-        public string Numara { get => _numara; set => _numara = value; }
-        public static Rehber Kisi()
+        public List<Kisi> Kayitlar { get => _kayitlar; set => _kayitlar = value; }
+        public static Rehber Basla()
         {
-            if (_kisi == null)
-                _kisi = new Rehber();
-
-            return _kisi;
+            if (_rehber == null)
+                _rehber = new Rehber();
+            return _rehber;
         }
-        public List<string> Kayitlar { get => _kayitlar; set => _kayitlar = value; }
         private Rehber()
         {
-            Kayitlar = new List<string>();
-            Kayitlar.Add("Burak Yılmaz 05111234567");
-            Kayitlar.Add("Serkan Güven 05119876543");
-            Kayitlar.Add("Aylin Güney 05112345678");
-            Kayitlar.Add("Pelin Aydın 05118765432");
-            Kayitlar.Add("Mehmet Yıldız 05110123456");
+            Kayitlar = new List<Kisi>();
+            Kisi kisi1 = new Kisi { Isim = "Burak", Soyisim = "Yılmaz", Numara = "05111234567" };
+            Kisi kisi2 = new Kisi { Isim = "Serkan", Soyisim = "Güven", Numara = "05119876543" };
+            Kisi kisi3 = new Kisi { Isim = "Aylin", Soyisim = "Güney", Numara = "05112345678" };
+            Kisi kisi4 = new Kisi { Isim = "Pelin", Soyisim = "Aydın", Numara = "05118765432" };
+            Kisi kisi5 = new Kisi { Isim = "Mehmet", Soyisim = "Yıldız", Numara = "05110123456" };
+            Kayitlar.Add(kisi1);
+            Kayitlar.Add(kisi2);
+            Kayitlar.Add(kisi3);
+            Kayitlar.Add(kisi4);
+            Kayitlar.Add(kisi5);
         }
     }
 }
-

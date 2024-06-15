@@ -56,7 +56,7 @@ namespace TelefonRehberi
         public static bool YazimKontrol()
         {
             bool kontrol = true;
-            Rehber kisi = Rehber.Kisi();
+            Kisi kisi = Kisi.Basla();
             while (true)
             {
                 if (!HepsiHarfMi(kisi.Isim))

@@ -12,27 +12,28 @@ namespace TelefonRehberi
         {
             Console.WriteLine("Yeni Kişi Kaydı");
             Console.WriteLine("---------------");
-            Rehber kisi = Rehber.Kisi();
+            Kisi kisi = Kisi.Basla();
+            Rehber rehber = Rehber.Basla();
 
             while (true)
             {
                 Console.Write("Lütfen isim giriniz: ");
-                kisi.Isim = Console.ReadLine();
+                string isim = Console.ReadLine();
 
                 Console.Write("Lütfen soyisim giriniz: ");
-                kisi.Soyisim = Console.ReadLine();
+                string soyisim = Console.ReadLine();
 
                 Console.Write("Lütfen telefon numarası giriniz: 05");
-                kisi.Numara = Console.ReadLine();
-                kisi.Numara = "05" + kisi.Numara;
+                string numara = Console.ReadLine();
+                numara = "05" + kisi.Numara;
 
                 if(!Kontrol.YazimKontrol())
                 {
                     continue;
                 }
 
-                string kayit = kisi.Isim + " " + kisi.Soyisim + " " + kisi.Numara;
-                kisi.Kayitlar.Add(kayit);
+                Kisi yeniKayit = new Kisi(isim, soyisim, numara);
+                rehber.Kayitlar.Add(yeniKayit);
                 Console.WriteLine("Kişi rehbere başarıyla kaydedildi.");
                 break;
             }
@@ -41,7 +42,8 @@ namespace TelefonRehberi
         {
             Console.WriteLine("Kişi Silme");
             Console.WriteLine("----------");
-            Rehber kisi = Rehber.Kisi();
+            Kisi kisi = Kisi.Basla();
+            Rehber rehber= Rehber.Basla();
 
             while (true)
             {
@@ -55,25 +57,23 @@ namespace TelefonRehberi
 
                 while (true)
                 {
-                    string silinecekKisi = KisiAra(bilgi);
+                    List<Kisi> silinecekKisi = KisiAra(bilgi);
                     if (silinecekKisi == null)
                     {
                         return;
                     }
-                    else if (silinecekKisi == "")
+                    else if (silinecekKisi.Count==0)
                     {
                         break;
                     }
                     else
                     {
-                        Console.WriteLine();
-                        string[] adSoyad = silinecekKisi.Split(' ');
-                        Console.WriteLine($"'{adSoyad[0]} {adSoyad[1]}' kişisi silinecektir, onaylıyor musunuz? (Y/N)");
+                        Console.WriteLine($"'{silinecekKisi[0].Isim} {silinecekKisi[0].Soyisim}' kişisi silinecektir, onaylıyor musunuz? (Y/N)");
                         string onay = Console.ReadLine();
                         if (onay.ToUpper() == "Y")
                         {
-                            kisi.Kayitlar.Remove(silinecekKisi);
-                            Console.WriteLine($"'{adSoyad[0]} {adSoyad[1]}' kişisi başarıyla silinmiştir.");
+                            rehber.Kayitlar.Remove(silinecekKisi[0]);
+                            Console.WriteLine($"'{silinecekKisi[0].Isim} {silinecekKisi[0].Soyisim}' kişisi başarıyla silinmiştir.");
                             return;
                         }
                         else if (onay.ToUpper() == "N")
@@ -95,7 +95,7 @@ namespace TelefonRehberi
         {
             Console.WriteLine("Kişi Bilgileri Güncelleme");
             Console.WriteLine("-------------------------");
-            Rehber kisi = Rehber.Kisi();
+            Kisi kisi = Kisi.Basla();
 
             while (true)
             {
@@ -108,37 +108,35 @@ namespace TelefonRehberi
                 }
                 while (true)
                 {
-                    string guncellenecekKisi = KisiAra(bilgi);
+                    List<Kisi> guncellenecekKisi = KisiAra(bilgi);
                     if (guncellenecekKisi == null)
                     {
                         return;
                     }
-                    else if (guncellenecekKisi == "")
+                    else if (guncellenecekKisi.Count==0)
                     {
                         break;
                     }
                     else
                     {
-                        string[] adSoyad = guncellenecekKisi.Split(' ');
-                        Console.WriteLine($"'{adSoyad[0]} {adSoyad[1]}' kişisi güncellenecektir.");
+                        Console.WriteLine($"'{guncellenecekKisi[0].Isim} {guncellenecekKisi[0].Soyisim}' kişisi güncellenecektir.");
                         Console.Write("Lütfen yeni ismi giriniz: ");
-                        kisi.Isim = Console.ReadLine();
+                        string yeniIsim = Console.ReadLine();
 
                         Console.Write("Lütfen yeni soyismi giriniz: ");
-                        kisi.Soyisim = Console.ReadLine();
+                        string yeniSoyisim = Console.ReadLine();
 
                         Console.Write("Lütfen yeni telefon numarasını giriniz: 05");
-                        kisi.Numara = Console.ReadLine();
-                        kisi.Numara = "05" + kisi.Numara;
+                        string yeniNumara = Console.ReadLine();
+                        yeniNumara = "05" + kisi.Numara;
 
                         if (!Kontrol.YazimKontrol())
                         {
                             continue;
                         }
-
-                        string kayit = kisi.Isim + " " + kisi.Soyisim + " " + kisi.Numara;
-                        kisi.Kayitlar.Remove(guncellenecekKisi);
-                        kisi.Kayitlar.Add(kayit);
+                        guncellenecekKisi[0].Isim = yeniIsim;
+                        guncellenecekKisi[0].Soyisim = yeniSoyisim;
+                        guncellenecekKisi[0].Numara = yeniNumara;
                         Console.WriteLine("Kişi bilgisi başarıyla güncellendi.");
                         return;
                     }
@@ -148,6 +146,9 @@ namespace TelefonRehberi
         }
         public static void KisiListele()
         {
+            Kisi kisi = Kisi.Basla();
+            Rehber rehber = Rehber.Basla();
+
             Console.WriteLine("Rehberdeki kişileri nasıl sıralamak istiyorsunuz?");
             while (true)
             {
@@ -158,10 +159,8 @@ namespace TelefonRehberi
                 {
                     Console.WriteLine("Rehberdeki Kişiler (A-Z)");
                     Console.WriteLine("------------------");
-                    Rehber kisi = Rehber.Kisi();
-                    kisi.Kayitlar.Sort();
-
-                    foreach (var k in kisi.Kayitlar)
+                    rehber.Kayitlar.Sort((s1,s2)=>s1.Isim.CompareTo(s2.Isim));
+                    foreach (var k in rehber.Kayitlar)
                     {
                         KisiYazdir(k);
                     }
@@ -171,11 +170,9 @@ namespace TelefonRehberi
                 {
                     Console.WriteLine("Rehberdeki Kişiler (Z-A)");
                     Console.WriteLine("------------------");
-                    Rehber kisi = Rehber.Kisi();
-                    kisi.Kayitlar.Sort();
-                    kisi.Kayitlar.Reverse();
-
-                    foreach (var k in kisi.Kayitlar)
+                    rehber.Kayitlar.Sort((s1, s2) => s1.Isim.CompareTo(s2.Isim));
+                    rehber.Kayitlar.Reverse();
+                    foreach (var k in rehber.Kayitlar)
                     {
                         KisiYazdir(k);
                     }
@@ -192,9 +189,10 @@ namespace TelefonRehberi
         {
             Console.WriteLine("Arama yapmak istediğiniz tipi seçiniz.");
             
-            Rehber kisi = Rehber.Kisi();
+            Kisi kisi = Kisi.Basla();
+            Rehber rehber = Rehber.Basla();
             bool kontrol = false;
-            kisi.Kayitlar.Sort();
+            rehber.Kayitlar.Sort((s1, s2) => s1.Isim.CompareTo(s2.Isim));
             while (true)
             {
                 Console.WriteLine("İsim veya soyisime göre arama yapmak için: (1)");
@@ -212,11 +210,12 @@ namespace TelefonRehberi
                         }
                         else
                         {
-                            foreach (var kayit in kisi.Kayitlar)
+                            foreach (var kayit in rehber.Kayitlar)
                             {
-                                string kayitKucuk = kayit.ToLower();
+                                string kucukIsim = kayit.Isim.ToLower();
+                                string kucukSoyisim = kayit.Soyisim.ToLower();
 
-                                if (kayitKucuk.Contains(kisiBilgi))
+                                if (kucukIsim.Contains(kisiBilgi)||kucukSoyisim.Contains(kisiBilgi))
                                 {
                                     KisiYazdir(kayit);
                                     kontrol = true;
@@ -254,11 +253,11 @@ namespace TelefonRehberi
                         }
                         else
                         {
-                            foreach (var num in kisi.Kayitlar)
+                            foreach (var s in rehber.Kayitlar)
                             {
-                                if (num.Contains(numara))
+                                if (s.Numara.Contains(numara))
                                 {
-                                    KisiYazdir(num);
+                                    KisiYazdir(s);
                                     kontrol = true;
                                 }
                             }
@@ -289,28 +288,29 @@ namespace TelefonRehberi
             
 
         }
-        public static string KisiAra(string kisiBilgi)
+        public static List<Kisi> KisiAra(string kisiBilgi)
         {
-
-            Rehber kisi = Rehber.Kisi();
-            List<string> aramaSonuclari = new List<string>();
+            Kisi kisi = Kisi.Basla();
+            Rehber rehber = Rehber.Basla();
+            List<Kisi> aramaSonuclari = new List<Kisi>();
             bool kontrol = false;
-            kisi.Kayitlar.Sort();
+            rehber.Kayitlar.Sort((s1, s2) => s1.Isim.CompareTo(s2.Isim));
 
             while (true)
             {
-                foreach (var kayit in kisi.Kayitlar)
+                foreach (var kayit in rehber.Kayitlar)
                 {
-                    string kayitKucuk = kayit.ToLower();
+                    string kucukIsim = kayit.Isim.ToLower();
+                    string kucukSoyisim = kayit.Soyisim.ToLower();
 
-                    if (kayitKucuk.Contains(kisiBilgi))
+                    if (kucukIsim.Contains(kisiBilgi)||kucukSoyisim.Contains(kisiBilgi))
                     {
                         KisiYazdir(kayit);
                         aramaSonuclari.Add(kayit);
                         kontrol = true;
                     }
                 }
-
+                Console.WriteLine();
                 if (!kontrol)
                 {
                     Console.WriteLine("Aradığınız kişi bulunamadı! Lütfen bir seçim yapınız: ");
@@ -320,18 +320,16 @@ namespace TelefonRehberi
                     }
                     else
                     {
-                        return "";
+                        return aramaSonuclari;
                     }
                 }
-                return aramaSonuclari[0];
+                return aramaSonuclari;
             }
 
         }
-        public static void KisiYazdir(string kayit)
+        public static void KisiYazdir(Kisi kayit)
         {
-            string[] veri = kayit.Split(' ');
-            string numara = veri[2];
-            Console.WriteLine($"İsim: {veri[0],-10} Soyisim: {veri[1],-10} Numara: {TelefonFormati(numara),-15}");
+            Console.WriteLine($"İsim: {kayit.Isim,-10} Soyisim: {kayit.Soyisim,-10} Numara: {TelefonFormati(kayit.Numara),-15}");
         }
         public static string TelefonFormati(string numara)
         {

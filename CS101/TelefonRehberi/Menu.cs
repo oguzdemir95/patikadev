@@ -49,7 +49,7 @@ namespace TelefonRehberi
                     AnaMenuyeDon();
                     break;
                 default:
-                    Console.WriteLine("Geçersiz giriş.");
+                    Console.WriteLine("Geçersiz giriş. Lütfen tekrar deneyin.");
                     Console.WriteLine();
                     break;
             }
