@@ -8,6 +8,7 @@ namespace TelefonRehberi
 {
     internal class Islemler
     {
+        #region Menü İşlevleri
         public static void KisiKaydet()
         {
             Console.WriteLine("Yeni Kişi Kaydı");
@@ -288,6 +289,9 @@ namespace TelefonRehberi
             
 
         }
+        #endregion
+
+        #region Ara İşlevler
         public static List<Kisi> KisiAra(string kisiBilgi)
         {
             Kisi kisi = Kisi.Basla();
@@ -333,26 +337,15 @@ namespace TelefonRehberi
         }
         public static string TelefonFormati(string numara)
         {
-            string duzenlenenNumara;
-
-            if (numara.StartsWith("0"))
-            {
-                duzenlenenNumara = string.Format("0({0}) {1}-{2}-{3}",
+            string duzenlenenNumara = string.Format("0({0}) {1}-{2}-{3}",
                             numara.Substring(1, 3),
                             numara.Substring(4, 3),
                             numara.Substring(7, 2),
                             numara.Substring(9, 2));
-            }
-            else
-            {
-                duzenlenenNumara = string.Format("0({0}) {1}-{2}-{3}",
-                            numara.Substring(0, 3),
-                            numara.Substring(3, 3),
-                            numara.Substring(6, 2),
-                            numara.Substring(8, 2));
-            }
+            
             return duzenlenenNumara;
         }
+        #endregion
 
     }
 }

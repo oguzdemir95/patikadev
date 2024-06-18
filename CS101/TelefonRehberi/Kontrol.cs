@@ -8,6 +8,7 @@ namespace TelefonRehberi
 {
     internal class Kontrol
     {
+        #region Kontrol İşlevleri
         public static bool HepsiHarfMi(string veri)
         {
             foreach (char c in veri)
@@ -100,5 +101,6 @@ namespace TelefonRehberi
                 return kontrol;
             }
         }
+        #endregion
     }
 }

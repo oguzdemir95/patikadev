@@ -8,6 +8,7 @@ namespace TelefonRehberi
 {
     internal class Menu
     {
+        #region Menüler
         public static void Menuler()
         {
             Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz:");
@@ -73,5 +74,6 @@ namespace TelefonRehberi
                 }
             }
         }
+        #endregion
     }
 }

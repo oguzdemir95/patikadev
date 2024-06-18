@@ -8,10 +8,16 @@ namespace TelefonRehberi
 {
     internal class Rehber
     {
+        #region Alanlar
         private static Rehber _rehber;
         private List<Kisi> _kayitlar;
+        #endregion
 
+        #region Kapsülleme
         public List<Kisi> Kayitlar { get => _kayitlar; set => _kayitlar = value; }
+        #endregion
+
+        #region Kurucular ve Başlatmalar
         public static Rehber Basla()
         {
             if (_rehber == null)
@@ -32,5 +38,6 @@ namespace TelefonRehberi
             Kayitlar.Add(kisi4);
             Kayitlar.Add(kisi5);
         }
+        #endregion
     }
 }
