@@ -8,10 +8,15 @@ namespace AlanHesaplama
 {
     internal class Daire : Sekil
     {
+        #region Alanlar
         private double yaricap;
+        #endregion
 
+        #region Kapsülleme
         public double Yaricap { get => yaricap; set => yaricap = value; }
+        #endregion
 
+        #region Hesaplamalar
         public override double AlanHesapla()
         {
             double alan = Math.PI * Yaricap * Yaricap;
@@ -34,11 +39,15 @@ namespace AlanHesaplama
         {
             throw new NotImplementedException();
         }
+        #endregion
+
+        #region Bilgi Alma
         public void DaireBilgisi()
         {
             Console.Write("Dairenin yarıçapını giriniz: ");
             double yaricap=double.Parse(Console.ReadLine());
             Yaricap = yaricap;
         }
+        #endregion
     }
 }

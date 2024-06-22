@@ -8,14 +8,19 @@ namespace AlanHesaplama
 {
     internal class Dikdortgen : Sekil
     {
+        #region Alanlar
         private double kisaKenar;
         private double uzunKenar;
         private double prizmaYukseklik;
+        #endregion
 
+        #region Kapsülleme
         public double KisaKenar { get => kisaKenar; set => kisaKenar = value; }
         public double UzunKenar { get => uzunKenar; set => uzunKenar = value; }
         public double PrizmaYukseklik { get => prizmaYukseklik; set => prizmaYukseklik = value; }
+        #endregion
 
+        #region Hesaplamalar
         public override double AlanHesapla()
         {
             double alan = KisaKenar * UzunKenar;
@@ -36,8 +41,13 @@ namespace AlanHesaplama
 
         public override void Prizma()
         {
-            throw new NotImplementedException();
+            Console.Write("Dikdörtgen prizma için yükseklik giriniz: ");
+            prizmaYukseklik = double.Parse(Console.ReadLine());
+            PrizmaYukseklik = prizmaYukseklik;
         }
+        #endregion
+
+        #region Bilgi Alma
         public void KenarBilgisi()
         {
             Console.Write("Dikdörtgenin kısa kenarını giriniz: ");
@@ -47,5 +57,6 @@ namespace AlanHesaplama
             double uzunKenar = double.Parse(Console.ReadLine());
             UzunKenar = uzunKenar;
         }
+        #endregion
     }
 }

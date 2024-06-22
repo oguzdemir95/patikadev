@@ -9,9 +9,11 @@ namespace AlanHesaplama
 {
     internal abstract class Sekil
     {
+        #region Soyut Hesaplama Metotları
         public abstract double CevreHesapla();
         public abstract double AlanHesapla();
         public abstract double HacimHesapla();
         public abstract void Prizma();
+        #endregion
     }
 }

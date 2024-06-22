@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlanHesaplama")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25ce75e52cf8c70d5d6d69eb4bf9b2917a630bad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+529c8fa685279c66e71b585fa080a0d5fd580bc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlanHesaplama")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlanHesaplama")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
