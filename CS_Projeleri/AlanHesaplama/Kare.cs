@@ -9,11 +9,11 @@ namespace AlanHesaplama
     internal class Kare : Sekil
     {
         #region Alanlar
-        private double kenar;
+        private double _kenar;
         #endregion
 
         #region Kapsülleme
-        public double Kenar { get => kenar; set => kenar = value; }
+        public double Kenar { get => _kenar; set => _kenar = value; }
         #endregion
 
         #region Hesaplamalar
@@ -41,9 +41,23 @@ namespace AlanHesaplama
         #region Bilgi Alma
         public void KenarBilgisi()
         {
-            Console.Write("Karenin kenarını giriniz: ");
-            double kenar=double.Parse(Console.ReadLine());
-            Kenar = kenar;
+            while (true)
+            {
+                Console.Write("Karenin kenarını giriniz: ");
+                string giris=Console.ReadLine();
+                double kenar;
+
+                if (!Kontrol.SayiMiKontrol(giris))
+                    continue;
+                else
+                    kenar=double.Parse(giris);
+                
+                if(!Kontrol.PozitifKontrol(kenar))
+                    continue;
+                else
+                    Kenar = kenar;
+                break;
+            }
         }
         #endregion
     }

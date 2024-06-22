@@ -9,15 +9,15 @@ namespace AlanHesaplama
     internal class Dikdortgen : Sekil
     {
         #region Alanlar
-        private double kisaKenar;
-        private double uzunKenar;
-        private double prizmaYukseklik;
+        private double _kisaKenar;
+        private double _uzunKenar;
+        private double _prizmaYukseklik;
         #endregion
 
         #region Kapsülleme
-        public double KisaKenar { get => kisaKenar; set => kisaKenar = value; }
-        public double UzunKenar { get => uzunKenar; set => uzunKenar = value; }
-        public double PrizmaYukseklik { get => prizmaYukseklik; set => prizmaYukseklik = value; }
+        public double KisaKenar { get => _kisaKenar; set => _kisaKenar = value; }
+        public double UzunKenar { get => _uzunKenar; set => _uzunKenar = value; }
+        public double PrizmaYukseklik { get => _prizmaYukseklik; set => _prizmaYukseklik = value; }
         #endregion
 
         #region Hesaplamalar
@@ -39,23 +39,67 @@ namespace AlanHesaplama
             return hacim;
         }
 
-        public override void Prizma()
-        {
-            Console.Write("Dikdörtgen prizma için yükseklik giriniz: ");
-            prizmaYukseklik = double.Parse(Console.ReadLine());
-            PrizmaYukseklik = prizmaYukseklik;
-        }
+        
         #endregion
 
         #region Bilgi Alma
         public void KenarBilgisi()
         {
-            Console.Write("Dikdörtgenin kısa kenarını giriniz: ");
-            double kisaKenar=double.Parse(Console.ReadLine());
-            KisaKenar = kisaKenar;
-            Console.Write("Dikdörtgenin uzun kenarını giriniz: ");
-            double uzunKenar = double.Parse(Console.ReadLine());
-            UzunKenar = uzunKenar;
+            while (true)
+            {
+                Console.Write("Dikdörtgenin kısa kenarını giriniz: ");
+                string giris= Console.ReadLine();
+                double kisaKenar;
+
+                if(!Kontrol.SayiMiKontrol(giris))
+                    continue;
+                else
+                    kisaKenar=double.Parse(giris);
+
+                if (!Kontrol.PozitifKontrol(kisaKenar))
+                    continue;
+                else
+                    KisaKenar = kisaKenar;
+                break;
+            }
+            while (true)
+            {
+                Console.Write("Dikdörtgenin uzun kenarını giriniz: ");
+                string giris=Console.ReadLine();
+                double uzunKenar;
+
+                if (!Kontrol.SayiMiKontrol(giris))
+                    continue;
+                else
+                    uzunKenar = double.Parse(giris);
+
+                if (!Kontrol.PozitifKontrol(uzunKenar))
+                    continue;
+                else
+                    UzunKenar = uzunKenar;
+                break;
+            }
+        }
+        public override void Prizma()
+        {
+            while (true)
+            {
+                Console.Write("Dikdörtgen prizma için yükseklik giriniz: ");
+                string giris = Console.ReadLine();
+                double prizmaYukseklik;
+
+                if (!Kontrol.SayiMiKontrol(giris))
+                    continue;
+                else
+                    prizmaYukseklik = double.Parse(giris);
+
+                if (!Kontrol.PozitifKontrol(prizmaYukseklik))
+                    continue;
+                else
+                    PrizmaYukseklik = prizmaYukseklik;
+                break;
+            }
+            
         }
         #endregion
     }

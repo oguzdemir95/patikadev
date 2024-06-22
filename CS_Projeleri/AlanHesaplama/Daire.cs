@@ -9,11 +9,11 @@ namespace AlanHesaplama
     internal class Daire : Sekil
     {
         #region Alanlar
-        private double yaricap;
+        private double _yaricap;
         #endregion
 
         #region Kapsülleme
-        public double Yaricap { get => yaricap; set => yaricap = value; }
+        public double Yaricap { get => _yaricap; set => _yaricap = value; }
         #endregion
 
         #region Hesaplamalar
@@ -44,9 +44,27 @@ namespace AlanHesaplama
         #region Bilgi Alma
         public void DaireBilgisi()
         {
-            Console.Write("Dairenin yarıçapını giriniz: ");
-            double yaricap=double.Parse(Console.ReadLine());
-            Yaricap = yaricap;
+            while (true)
+            {
+                Console.Write("Dairenin yarıçapını giriniz: ");
+                string giris = Console.ReadLine();
+                double yaricap;
+                if(!Kontrol.SayiMiKontrol(giris))
+                {
+                    continue;
+                }
+                else
+                    yaricap=double.Parse(giris);
+
+                if(!Kontrol.PozitifKontrol(yaricap))
+                {
+                    continue;
+                }
+                else
+                    Yaricap = yaricap;
+                break;
+            }
+            
         }
         #endregion
     }

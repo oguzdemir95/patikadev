@@ -68,21 +68,21 @@ namespace AlanHesaplama
                                     Console.WriteLine("Daire Çevre Hesaplama");
                                     Console.WriteLine("*********************");
                                     daire.DaireBilgisi();
-                                    Console.WriteLine($"Dairenin çevresi: {daire.CevreHesapla():F3}");
+                                    Console.WriteLine($"Dairenin çevresi: {daire.CevreHesapla():F3} br");
                                     break;
                                 case "2":
                                     Console.Clear();
                                     Console.WriteLine("Daire Alan Hesaplama");
                                     Console.WriteLine("*********************");
                                     daire.DaireBilgisi();
-                                    Console.WriteLine($"Dairenin alanı: {daire.AlanHesapla():F3}");
+                                    Console.WriteLine($"Dairenin alanı: {daire.AlanHesapla():F3} br2");
                                     break;
                                 case "3":
                                     Console.Clear();
                                     Console.WriteLine("Küre Hacim Hesaplama");
                                     Console.WriteLine("*********************");
                                     daire.DaireBilgisi();
-                                    Console.WriteLine($"Kürenin hacmi: {daire.HacimHesapla():F3}");
+                                    Console.WriteLine($"Kürenin hacmi: {daire.HacimHesapla():F3} br3");
                                     break;
                                 default:
                                     Console.WriteLine("Hatalı giriş. Lütfen tekrar deneyin.");
@@ -106,14 +106,14 @@ namespace AlanHesaplama
                                     Console.WriteLine("Üçgen Çevre Hesaplama");
                                     Console.WriteLine("*********************");
                                     ucgen.UcKenar();
-                                    Console.WriteLine($"Üçgenin çevresi: {ucgen.CevreHesapla():F3}");
+                                    Console.WriteLine($"Üçgenin çevresi: {ucgen.CevreHesapla():F3} br");
                                     break;
                                 case "2":
                                     Console.Clear();
                                     Console.WriteLine("Üçgen Alan Hesaplama");
                                     Console.WriteLine("*********************");
                                     ucgen.TabanYukseklik();
-                                    Console.WriteLine($"Üçgenin alanı: {ucgen.AlanHesapla():F3}");
+                                    Console.WriteLine($"Üçgenin alanı: {ucgen.AlanHesapla():F3} br2");
                                     break;
                                 case "3":
                                     Console.Clear();
@@ -121,7 +121,7 @@ namespace AlanHesaplama
                                     Console.WriteLine("*********************");
                                     ucgen.TabanYukseklik();
                                     ucgen.Prizma();
-                                    Console.WriteLine($"Kürenin hacmi: {ucgen.HacimHesapla():F3}");
+                                    Console.WriteLine($"Kürenin hacmi: {ucgen.HacimHesapla():F3} br3");
                                     break;
                                 default:
                                     Console.WriteLine("Hatalı giriş. Lütfen tekrar deneyin.");
@@ -145,21 +145,21 @@ namespace AlanHesaplama
                                     Console.WriteLine("Kare Çevre Hesaplama");
                                     Console.WriteLine("*********************");
                                     kare.KenarBilgisi();
-                                    Console.WriteLine($"Dairenin çevresi: {kare.CevreHesapla():F3}");
+                                    Console.WriteLine($"Dairenin çevresi: {kare.CevreHesapla():F3} br");
                                     break;
                                 case "2":
                                     Console.Clear();
                                     Console.WriteLine("Kare Alan Hesaplama");
                                     Console.WriteLine("*********************");
                                     kare.KenarBilgisi();
-                                    Console.WriteLine($"Karenin alanı: {kare.AlanHesapla():F3}");
+                                    Console.WriteLine($"Karenin alanı: {kare.AlanHesapla():F3} br2");
                                     break;
                                 case "3":
                                     Console.Clear();
                                     Console.WriteLine("Küp Hacim Hesaplama");
                                     Console.WriteLine("*********************");
                                     kare.KenarBilgisi();
-                                    Console.WriteLine($"Küpün hacmi: {kare.HacimHesapla():F3}");
+                                    Console.WriteLine($"Küpün hacmi: {kare.HacimHesapla():F3} br3");
                                     break;
                                 default:
                                     Console.WriteLine("Hatalı giriş. Lütfen tekrar deneyin.");
@@ -183,14 +183,14 @@ namespace AlanHesaplama
                                     Console.WriteLine("Dikdörtgen Çevre Hesaplama");
                                     Console.WriteLine("*********************");
                                     dikdortgen.KenarBilgisi();
-                                    Console.WriteLine($"Dikdörtgenin çevresi: {dikdortgen.CevreHesapla():F3}");
+                                    Console.WriteLine($"Dikdörtgenin çevresi: {dikdortgen.CevreHesapla():F3} br");
                                     break;
                                 case "2":
                                     Console.Clear();
                                     Console.WriteLine("Dikdörtgen Alan Hesaplama");
                                     Console.WriteLine("*********************");
                                     dikdortgen.KenarBilgisi();
-                                    Console.WriteLine($"Dikdörtgenin alanı: {dikdortgen.AlanHesapla():F3}");
+                                    Console.WriteLine($"Dikdörtgenin alanı: {dikdortgen.AlanHesapla():F3} br2");
                                     break;
                                 case "3":
                                     Console.Clear();
@@ -198,7 +198,7 @@ namespace AlanHesaplama
                                     Console.WriteLine("*********************");
                                     dikdortgen.KenarBilgisi();
                                     dikdortgen.Prizma();
-                                    Console.WriteLine($"Dikdörtgen prizmanın hacmi: {dikdortgen.HacimHesapla():F3}");
+                                    Console.WriteLine($"Dikdörtgen prizmanın hacmi: {dikdortgen.HacimHesapla():F3} br3");
                                     break;
                                 default:
                                     Console.WriteLine("Hatalı giriş. Lütfen tekrar deneyin.");
