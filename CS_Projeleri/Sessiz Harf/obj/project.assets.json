@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS_Projeleri\\Sessiz Harf\\Sessiz Harf.csproj",
-      "projectName": "Sessiz Harf",
-      "projectPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS_Projeleri\\Sessiz Harf\\Sessiz Harf.csproj",
+      "projectUniqueName": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS_Projeleri\\Sessiz Harf\\SessizHarf.csproj",
+      "projectName": "SessizHarf",
+      "projectPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS_Projeleri\\Sessiz Harf\\SessizHarf.csproj",
       "packagesPath": "C:\\Users\\oğuzhan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\oğuzhan\\Source\\Repos\\oguzdemir95\\patikadev\\CS_Projeleri\\Sessiz Harf\\obj\\",
       "projectStyle": "PackageReference",
