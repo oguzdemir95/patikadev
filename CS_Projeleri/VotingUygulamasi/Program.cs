@@ -26,7 +26,7 @@ internal class Program
             Console.Write("Şifre: ");
             string sifreGiris = Console.ReadLine();
 
-            if (KullaniciVarMi(kullanicilar, adGiris, sifreGiris))
+            if (Kontrol.KullaniciVarMi(kullanicilar, adGiris, sifreGiris))
             {
                 Kullanici bul = kullanicilar.FirstOrDefault(k => k.KullaniciAdi == adGiris && k.KullaniciSifresi == sifreGiris);
                 Console.WriteLine("Giriş başarılı.");
@@ -65,64 +65,12 @@ internal class Program
                 {
                     continue;
                 }
+                else
+                {
+                    Console.WriteLine("Geçersiz giriş.");
+                    continue;
+                }
             }
-            //foreach (var kullanici in kullanicilar)
-            //{
-            //    if (adGiris == kullanici.KullaniciAdi)
-            //    {
-            //        Console.Write("Şifre: ");
-            //        string sifreGiris = Console.ReadLine();
-            //        if (sifreGiris == kullanici.KullaniciSifresi)
-            //        {
-            //            Console.WriteLine("Giriş başarılı.");
-            //            kontrol = true;
-            //            Islemler.GeriSayim();
-            //            Console.WriteLine($"Kullanıcı Adı: {kullanici.KullaniciAdi}");
-            //            if (kullanici.OyVerdiMi)
-            //            {
-            //                Console.WriteLine($"{kullanici.KullaniciAdi} kullanıcısı {kullanici.VerdigiOy} kategorisine oy vermiştir.");
-            //                Islemler.OyYuzdesiYazdir(yuzdeToplam, film, dizi, kitap, tech, spor);
-
-            //            }
-            //            else
-            //            {
-            //                Console.WriteLine();
-            //                Islemler.OylamaKategorileriYaz(film, dizi, kitap, tech, spor);
-            //                Islemler.SecimiUygula(yuzdeToplam, film, dizi, kitap, tech, spor, kullanici);
-            //            }
-            //            break;
-            //        }
-
-            //    }
-            //    else
-            //    {
-            //        kontrol = false;
-            //    }
-
-            //}
-
-            //if (kontrol == false)
-            //{
-            //    Console.WriteLine("Kullanıcı bulunamadı. Yeni kullanıcı kaydı oluşturmalısınız.");
-            //    Console.Write("Yeni Kullanıcı Adı: ");
-            //    string yeniAd = Console.ReadLine();
-            //    Console.Write("Yeni Şifre: ");
-            //    string yeniSifre = Console.ReadLine();
-            //    Console.WriteLine($"Kullanıcı adınız '{yeniAd}' ve şifreniz '{yeniSifre}. Onaylıyor musunuz? (Y/N)");
-            //    string onay = Console.ReadLine();
-            //    if (onay.ToLower() == "y")
-            //    {
-            //        Kullanici yeniK=new Kullanici { KullaniciAdi = yeniAd, KullaniciSifresi = yeniSifre };
-            //        kullanicilar.Add(yeniK);
-            //        Console.WriteLine("Yeni kullanıcı eklendi.");
-            //        Islemler.GeriSayim();
-            //        continue;
-            //    }
-            //    else if (onay.ToLower() == "n")
-            //    {
-            //        continue;
-            //    }
-            //}
 
             while (true)
             {
@@ -140,9 +88,5 @@ internal class Program
             }
         }
     }
-    public static bool KullaniciVarMi(List<Kullanici> kullanicilar,string ad,string sifre)
-    {
-        bool kullaniciVarMi = kullanicilar.Any(k => k.KullaniciAdi == ad && k.KullaniciSifresi == sifre);
-        return kullaniciVarMi;
-    }
+    
 }

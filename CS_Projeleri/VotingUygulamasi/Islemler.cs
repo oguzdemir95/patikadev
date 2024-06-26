@@ -8,6 +8,7 @@ namespace VotingUygulamasi
 {
     internal class Islemler
     {
+        
         public static void OylamaKategorileriYaz(Kategori film, Kategori dizi, Kategori kitap, Kategori tech, Kategori spor)
         {
             Console.WriteLine("Oylama Kategorileri");
