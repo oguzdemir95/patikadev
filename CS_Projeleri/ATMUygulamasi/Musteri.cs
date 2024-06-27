@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATMUygulamasi
 {
-    internal class Musteri
+    public class Musteri
     {
         private int _musteriNumarasi;
         private int _musteriSifresi;
@@ -20,5 +20,22 @@ namespace ATMUygulamasi
         public string MusteriAdi { get => _musteriAdi; set => _musteriAdi = value; }
         public string MusteriSoyadi { get => _musteriSoyadi; set => _musteriSoyadi = value; }
         public double Bakiye { get => _bakiye; set => _bakiye = value; }
+
+        public static bool MusteriVarMi(List<Musteri> musteriler, int musterino)
+        {
+            bool kontrol = musteriler.Any(m => m.MusteriNumarasi == musterino);
+            return kontrol;
+        }
+        public static bool MusteriVarMi(List<Musteri> musteriler, int musterino, int musterisifre)
+        {
+            bool kontrol = musteriler.Any(m => m.MusteriNumarasi == musterino && m.MusteriSifresi == musterisifre);
+            return kontrol;
+        }
+
+        public static Musteri MusteriBul(List<Musteri> musteriler,int musterino)
+        {
+            Musteri bul = musteriler.FirstOrDefault(m => m.MusteriNumarasi == musterino);
+            return bul;
+        }
     }
 }
