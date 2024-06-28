@@ -38,7 +38,6 @@ namespace ATMUygulamasi
             }
             
         }
-
         public void ParaYatir(Musteri musteri)
         {
             Console.WriteLine();
@@ -55,7 +54,6 @@ namespace ATMUygulamasi
             Console.WriteLine("İşlem tamamlandı.");
             Console.WriteLine();
         }
-
         public void ParaGonder(List<Musteri> musteriler, Musteri musteri)
         {
             Console.WriteLine();
@@ -64,7 +62,7 @@ namespace ATMUygulamasi
             Console.Write($"Mevcut bakiyeniz: {musteri.Bakiye}");
             Console.WriteLine();
             Console.Write("Alıcı müşteri numarası giriniz: ");
-            int aliciNo = int.Parse(Console.ReadLine());
+            string aliciNo = Console.ReadLine();
             if (Musteri.MusteriVarMi(musteriler, aliciNo))
             {
                 Musteri alici = Musteri.MusteriBul(musteriler, aliciNo);
@@ -92,7 +90,6 @@ namespace ATMUygulamasi
 
 
         }
-
         public void OdemeYap(Musteri musteri)
         {
             Console.WriteLine("KREDİ KARTI BORÇ ÖDEMESİ");
