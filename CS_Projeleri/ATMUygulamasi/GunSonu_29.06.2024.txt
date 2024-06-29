@@ -1,0 +1,19 @@
+-------------------
+BULUNAMAYAN MÜŞTERİ
+Saat: 22:18:28
+Girilen Müşteri Numarası: 10105577
+
+------------
+HATALI GİRİŞ
+Saat: 22:18:39
+Müşteri Numarası: 10105566
+Müşteri: Oğuzhan Demir
+Hatalı Şifre
+
+------------
+HESAP GİRİŞİ
+Saat: 22:18:43
+Müşteri Numarası: 10105566
+Müşteri: Oğuzhan Demir
+İŞLEM: Para Çekme
+
