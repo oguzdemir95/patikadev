@@ -8,9 +8,7 @@ namespace ATMUygulamasi
 {
     internal class Loglar
     {
-        private string _aktarim;
-
-        public string Aktarim { get => _aktarim; set => _aktarim = value; }
+        #region Log İşlemleri
         public void IslemiYaz(Musteri mst,string zaman,string secim)
         {
             string tarih = DateTime.Now.Date.ToString("d");
@@ -69,5 +67,6 @@ namespace ATMUygulamasi
             yaz.WriteLine();
             yaz.Close();
         }
+        #endregion
     }
 }

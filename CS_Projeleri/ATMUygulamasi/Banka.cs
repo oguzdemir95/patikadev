@@ -8,10 +8,15 @@ namespace ATMUygulamasi
 {
     public class Banka
     {
+        #region Alanlar
         private string _bankaAdi;
+        #endregion
 
+        #region Kapsülleme
         public string BankaAdi { get => _bankaAdi; set => _bankaAdi = value; }
+        #endregion
 
+        #region Banka İşlemleri
         public void ParaCek(Musteri musteri)
         {
             Console.WriteLine();
@@ -111,5 +116,6 @@ namespace ATMUygulamasi
                 Console.WriteLine("Bakiyeniz yetersiz.");
             }
         }
+        #endregion
     }
 }

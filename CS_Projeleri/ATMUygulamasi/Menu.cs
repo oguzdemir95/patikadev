@@ -8,6 +8,7 @@ namespace ATMUygulamasi
 {
     internal class Menu
     {
+        #region Arayüz
         public static void Giris(AtmMakine atm)
         {
             Console.WriteLine($"{atm.BankaAdi} {atm.AtmKodu} numaralı ATM {atm.AtmKonumu}");
@@ -31,7 +32,9 @@ namespace ATMUygulamasi
             Console.WriteLine("(5) Hesaptan Çıkış");
             Console.Write("Seçim: ");
         }
+        #endregion
 
+        #region İşlemler
         public static void SecimiUygula(string secim,AtmMakine atm,Musteri girisYapan,List<Musteri> musteriler,bool kontrol)
         {
             switch (secim)
@@ -64,5 +67,6 @@ namespace ATMUygulamasi
                     break;
             }
         }
+        #endregion
     }
 }

@@ -8,12 +8,17 @@ namespace ATMUygulamasi
 {
     public class AtmMakine:Banka
     {
+        #region Alanlar
         private int _atmKodu;
         private string _atmKonumu;
+        #endregion
 
+        #region Kapsülleme
         public int AtmKodu { get => _atmKodu; set => _atmKodu = value; }
         public string AtmKonumu { get => _atmKonumu; set => _atmKonumu = value; }
+        #endregion
 
+        #region ATM İşlemleri
         public void HesaptanCikis(bool kontrol)
         {
             Console.WriteLine("Hesaptan çıkış yapılıyor.");
@@ -24,5 +29,6 @@ namespace ATMUygulamasi
             Console.WriteLine("1...");
             Thread.Sleep(1000);
         }
+        #endregion
     }
 }

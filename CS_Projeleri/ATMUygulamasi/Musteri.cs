@@ -8,19 +8,24 @@ namespace ATMUygulamasi
 {
     public class Musteri
     {
+        #region Alanlar
         private string _musteriNumarasi;
         private string _musteriSifresi;
         private string _musteriAdi;
         private string _musteriSoyadi;
         private double _bakiye;
+        #endregion
 
+        #region Kapsülleme
         public string MusteriNumarasi { get => _musteriNumarasi; set => _musteriNumarasi = value; }
         public string MusteriSifresi { get => _musteriSifresi; set => _musteriSifresi = value; }
         
         public string MusteriAdi { get => _musteriAdi; set => _musteriAdi = value; }
         public string MusteriSoyadi { get => _musteriSoyadi; set => _musteriSoyadi = value; }
         public double Bakiye { get => _bakiye; set => _bakiye = value; }
+        #endregion
 
+        #region Müşteri Kontrolleri
         public static bool MusteriVarMi(List<Musteri> musteriler, string musterino)
         {
             bool kontrol = musteriler.Any(m => m.MusteriNumarasi == musterino);
@@ -31,12 +36,23 @@ namespace ATMUygulamasi
             bool kontrol = musteriler.Any(m => m.MusteriNumarasi == musterino && m.MusteriSifresi == musterisifre);
             return kontrol;
         }
+        public static bool SifreGecerliMi(Musteri mst,string musterisifre)
+        {
+            if (mst.MusteriSifresi == musterisifre)
+            {
+                return true;
+            }
+            else
+                return false;
+        }
         public static Musteri MusteriBul(List<Musteri> musteriler,string musterino)
         {
             Musteri bul = musteriler.FirstOrDefault(m => m.MusteriNumarasi == musterino);
             return bul;
         }
+        #endregion
 
+        #region Giriş Kontrolleri
         public static bool MusteriNumarasiKontrol(string musterino)
         {
             if (!(int.TryParse(musterino, out int sayi)))
@@ -67,5 +83,6 @@ namespace ATMUygulamasi
             else
                 return false;
         }
+        #endregion
     }
 }
