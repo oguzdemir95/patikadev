@@ -19,7 +19,7 @@ namespace ATMUygulamasi
         #endregion
 
         #region ATM İşlemleri
-        public void HesaptanCikis(bool kontrol)
+        public void HesaptanCikis()
         {
             Console.WriteLine("Hesaptan çıkış yapılıyor.");
             Console.WriteLine("3...");
@@ -28,6 +28,29 @@ namespace ATMUygulamasi
             Thread.Sleep(1000); 
             Console.WriteLine("1...");
             Thread.Sleep(1000);
+        }
+
+        public void SiradakiIslem(AtmMakine atm,Musteri girisYapan,bool iKontrol)
+        {
+            bool kontrol = true;
+            while (kontrol)
+            {
+                Console.WriteLine("Ana ekrana dönmek için 'm' tuşuna basınız.");
+                string secim = Console.ReadLine();
+
+                if (secim.ToLower() == "m")
+                {
+                    kontrol = false;
+                    Console.Clear();
+                    Menu.Giris(atm);
+                }
+                else
+                {
+                    Console.WriteLine("Geçersiz giriş.");
+                    kontrol = true;
+                }
+            }
+
         }
         #endregion
     }

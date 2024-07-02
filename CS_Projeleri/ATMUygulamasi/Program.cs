@@ -6,7 +6,7 @@ internal class Program
     {
         #region Nesneler
         List<Musteri> musteriler = new List<Musteri>();
-        Loglar logGunSonu = new Loglar();
+        List<Loglar> loglar = new List<Loglar>();
         AtmMakine atm = new AtmMakine { BankaAdi = "Senin Finansın", AtmKodu = 1058, AtmKonumu = "Çankaya" };
         Musteri musteri1 = new Musteri { MusteriNumarasi = "10105566", MusteriSifresi = "123456", MusteriAdi = "Oğuzhan", MusteriSoyadi = "Demir", Bakiye = 20000 };
         Musteri musteri2 = new Musteri { MusteriNumarasi = "10102233", MusteriSifresi = "147852", MusteriAdi = "Berk", MusteriSoyadi = "Güney", Bakiye = 20000 };
@@ -14,81 +14,129 @@ internal class Program
         musteriler.Add(musteri2);
         #endregion
 
-        #region İlk Değerler
-        string musterino = "";
-        string musterisifre = "";
-        bool kontrol = true;
-        bool noKontrol = true;
-        bool sKontrol = true;
-        string zaman="";
-        #endregion
-
-        #region ATM Ekranı
-        Menu.Giris(atm);
-        while (kontrol)
+        while (true)
         {
-            zaman = DateTime.Now.ToLongTimeString();
-
-            #region Müşteri Numarası Sorgusu
-            Console.Write("Müşteri Numarası: ");
-            musterino = Console.ReadLine();
-            noKontrol = Musteri.MusteriNumarasiKontrol(musterino);
-            if (noKontrol)
-            {
-                continue;
-            }
+            #region İlk Değerler
+            string musterino = "";
+            string musterisifre = "";
+            bool kontrol = true;
+            bool noKontrol = true;
+            bool sKontrol = true;
+            string zaman = "";
             #endregion
 
-            #region Müşteri Şifrsi Sorgusu
-            Console.Write("Müşteri Şifresi: ");
-            musterisifre = Console.ReadLine();
-            sKontrol = Musteri.MusteriSifresiKontrol(musterisifre);
-            if (sKontrol)
-            {
-                continue;
-            }
-            #endregion
-
-            #region Bilgi Geçerliliği Kontrolü
-            bool numaraGecerliMi = Musteri.MusteriVarMi(musteriler, musterino);
-            if (numaraGecerliMi)
-            {
-                Musteri gecici = Musteri.MusteriBul(musteriler, musterino);
-                if(Musteri.SifreGecerliMi(gecici, musterisifre))
-                {
-                    kontrol = true;
-                }
-                else
-                {
-                    Console.WriteLine("Hatalı müşteri şifresi.");
-                    logGunSonu.HatalıSifreYaz(musteriler,musterino,zaman);
-                    continue;
-                }
-            }
-            #endregion
-
-            #region Yürütülecek İşlemler
-            if (Musteri.MusteriVarMi(musteriler, musterino, musterisifre))
+            #region ATM Ekranı
+            Menu.Giris(atm);
+            while (kontrol)
             {
                 zaman = DateTime.Now.ToLongTimeString();
-                Musteri girisYapan = Musteri.MusteriBul(musteriler, musterino);
-                Menu.AtmMenu(girisYapan);
-                string secim = Console.ReadLine();
 
-                Menu.SecimiUygula(secim, atm, girisYapan, musteriler, kontrol);
-                atm.HesaptanCikis(kontrol);
-                kontrol = false;
-                logGunSonu.IslemiYaz(girisYapan, zaman, secim);
+                #region Müşteri Numarası Sorgusu
+                Console.Write("Müşteri Numarası: ");
+                musterino = Console.ReadLine();
+                noKontrol = Musteri.MusteriNumarasiKontrol(musterino);
+                if (noKontrol)
+                {
+                    continue;
+                }
+                #endregion
 
-            }
-            else
-            {
-                Console.WriteLine("Müşteri bulunamadı.");
-                logGunSonu.MusteriBulunamadiYaz(musterino, zaman);
-                continue;
+                #region Müşteri Şifrsi Sorgusu
+                Console.Write("Müşteri Şifresi: ");
+                musterisifre = Console.ReadLine();
+                sKontrol = Musteri.MusteriSifresiKontrol(musterisifre);
+                if (sKontrol)
+                {
+                    continue;
+                }
+                #endregion
+
+                #region Bilgi Geçerliliği Kontrolü
+                bool numaraGecerliMi = Musteri.MusteriVarMi(musteriler, musterino);
+                if (numaraGecerliMi)
+                {
+                    Musteri gecici = Musteri.MusteriBul(musteriler, musterino);
+                    if (Musteri.SifreGecerliMi(gecici, musterisifre))
+                    {
+                        kontrol = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hatalı müşteri şifresi.");
+
+                        Loglar logGunSonu = new Loglar();
+                        logGunSonu.LogTuru = "HATALI GİRİŞ";
+                        logGunSonu.Zaman = $"Saat: {zaman}";
+                        logGunSonu.MusteriNumarasi = $"Müşteri Numarası: {gecici.MusteriNumarasi}";
+                        logGunSonu.Musteri = $"Müşteri: {gecici.MusteriAdi} {gecici.MusteriSoyadi}";
+                        logGunSonu.IslemTuru = "Hatalı Şifre";
+                        loglar.Add(logGunSonu);
+
+                        continue;
+                    }
+                }
+                #endregion
+                bool iKontrol = true;
+
+                #region Yürütülecek İşlemler
+                while (iKontrol)
+                {
+                    if (Musteri.MusteriVarMi(musteriler, musterino, musterisifre))
+                    {
+                        zaman = DateTime.Now.ToLongTimeString();
+                        Musteri girisYapan = Musteri.MusteriBul(musteriler, musterino);
+                        Menu.AtmMenu(girisYapan);
+                        string secim = Console.ReadLine();
+
+                        Menu.SecimiUygula(secim, atm, girisYapan, musteriler, iKontrol, loglar);
+                        if(secim=="6")
+                        {
+                            iKontrol = false;
+                        }
+
+                        //kontrol = false;
+
+                        Loglar logGunSonu = new Loglar();
+                        logGunSonu.LogTuru = "HESAP GİRİŞİ";
+                        logGunSonu.Zaman = $"Saat: {zaman}";
+                        logGunSonu.MusteriNumarasi = $"Müşteri Numarası: {girisYapan.MusteriNumarasi}";
+                        logGunSonu.Musteri = $"Müşteri: {girisYapan.MusteriAdi} {girisYapan.MusteriSoyadi}";
+                        switch (secim)
+                        {
+                            case "1":
+                                logGunSonu.IslemTuru = "Para Çekme";
+                                break;
+                            case "2":
+                                logGunSonu.IslemTuru = "Para Yatırma";
+                                break;
+                            case "3":
+                                logGunSonu.IslemTuru = "Para Gönderme";
+                                break;
+                            case "4":
+                                logGunSonu.IslemTuru = "Borç Ödeme";
+                                break;
+                            default:
+                                break;
+                        }
+                        loglar.Add(logGunSonu);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Müşteri bulunamadı.");
+
+                        Loglar logGunSonu = new Loglar();
+                        logGunSonu.LogTuru = "BULUNAMAYAN MÜŞTERİ";
+                        logGunSonu.Zaman = $"Saat: {zaman}";
+                        logGunSonu.MusteriNumarasi = $"Girilen Müşteri Numarası: {musterino}";
+                        logGunSonu.IslemTuru = "Müşteri Kayıtlarda Bulunamadı";
+                        loglar.Add(logGunSonu);
+
+                        continue;
+                    }
+                }
+                #endregion
             }
             #endregion
         }
-        #endregion
     }
 }

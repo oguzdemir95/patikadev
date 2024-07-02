@@ -29,38 +29,51 @@ namespace ATMUygulamasi
             Console.WriteLine("(2) Para Yatır");
             Console.WriteLine("(3) Para Gönder");
             Console.WriteLine("(4) Ödeme Yap");
-            Console.WriteLine("(5) Hesaptan Çıkış");
+            Console.WriteLine("(5) İşlem Kayıtlarını Al");
+            Console.WriteLine("(6) Hesaptan Çıkış");
             Console.Write("Seçim: ");
         }
         #endregion
 
         #region İşlemler
-        public static void SecimiUygula(string secim,AtmMakine atm,Musteri girisYapan,List<Musteri> musteriler,bool kontrol)
+        public static void SecimiUygula(string secim,AtmMakine atm,Musteri girisYapan,List<Musteri> musteriler,bool iKontrol, List<Loglar> loglar)
         {
             switch (secim)
             {
                 case "1":
                     Console.Clear();
-                    Menu.UstBilgi(atm, girisYapan);
+                    UstBilgi(atm, girisYapan);
                     atm.ParaCek(girisYapan);
+                    atm.SiradakiIslem(atm,girisYapan, iKontrol);
                     break;
                 case "2":
                     Console.Clear();
-                    Menu.UstBilgi(atm, girisYapan);
+                    UstBilgi(atm, girisYapan);
                     atm.ParaYatir(girisYapan);
+                    atm.SiradakiIslem(atm,girisYapan, iKontrol);
                     break;
                 case "3":
                     Console.Clear();
-                    Menu.UstBilgi(atm, girisYapan);
+                    UstBilgi(atm, girisYapan);
                     atm.ParaGonder(musteriler, girisYapan);
+                    atm.SiradakiIslem(atm, girisYapan, iKontrol);
                     break;
                 case "4":
                     Console.Clear();
-                    Menu.UstBilgi(atm, girisYapan);
+                    UstBilgi(atm, girisYapan);
                     atm.OdemeYap(girisYapan);
+                    atm.SiradakiIslem(atm, girisYapan, iKontrol);
                     break;
                 case "5":
-                    kontrol = false;
+                    Console.Clear();
+                    UstBilgi(atm, girisYapan);
+                    Loglar.LogYazdir(loglar);
+                    atm.SiradakiIslem(atm, girisYapan, iKontrol);
+                    break;
+                case "6":
+                    atm.HesaptanCikis();
+                    Console.Clear();
+                    Giris(atm);
                     break;
                 default:
                     Console.WriteLine("Geçersiz giriş.");
