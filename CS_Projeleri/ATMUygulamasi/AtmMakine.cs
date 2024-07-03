@@ -30,7 +30,7 @@ namespace ATMUygulamasi
             Thread.Sleep(1000);
         }
 
-        public void SiradakiIslem(AtmMakine atm,Musteri girisYapan,bool iKontrol)
+        public void SiradakiIslem(AtmMakine atm,Musteri girisYapan)
         {
             bool kontrol = true;
             while (kontrol)
@@ -43,6 +43,8 @@ namespace ATMUygulamasi
                     kontrol = false;
                     Console.Clear();
                     Menu.Giris(atm);
+                    //Menu.UstBilgi(atm, girisYapan);
+                    Menu.AtmMenu(girisYapan);
                 }
                 else
                 {

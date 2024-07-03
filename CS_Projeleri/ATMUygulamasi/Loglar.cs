@@ -98,6 +98,8 @@ namespace ATMUygulamasi
             }
             yaz.Close();
             Console.Write($"İşlem kayıtları bilgisayarınız üzerine kaydedilmiştir. Kayıt yeri: {yol}");
+            Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }

@@ -76,63 +76,46 @@ internal class Program
                     }
                 }
                 #endregion
+                                
                 bool iKontrol = true;
-
                 #region Yürütülecek İşlemler
-                while (iKontrol)
+                if (Musteri.MusteriVarMi(musteriler, musterino, musterisifre))
                 {
-                    if (Musteri.MusteriVarMi(musteriler, musterino, musterisifre))
+
+                    zaman = DateTime.Now.ToLongTimeString();
+                    Musteri girisYapan = Musteri.MusteriBul(musteriler, musterino);
+                    Menu.AtmMenu(girisYapan);
+
+                    Loglar logGunSonu = new Loglar();
+                    logGunSonu.LogTuru = "HESAP GİRİŞİ";
+                    logGunSonu.Zaman = $"Saat: {zaman}";
+                    logGunSonu.MusteriNumarasi = $"Müşteri Numarası: {girisYapan.MusteriNumarasi}";
+                    logGunSonu.Musteri = $"Müşteri: {girisYapan.MusteriAdi} {girisYapan.MusteriSoyadi}";
+                    loglar.Add(logGunSonu);
+                    
+                    while (iKontrol)
                     {
-                        zaman = DateTime.Now.ToLongTimeString();
-                        Musteri girisYapan = Musteri.MusteriBul(musteriler, musterino);
-                        Menu.AtmMenu(girisYapan);
                         string secim = Console.ReadLine();
 
-                        Menu.SecimiUygula(secim, atm, girisYapan, musteriler, iKontrol, loglar);
-                        if(secim=="6")
+                        Menu.SecimiUygula(secim, atm, girisYapan, musteriler, loglar);
+                        if (secim == "6")
                         {
                             iKontrol = false;
+
                         }
-
-                        //kontrol = false;
-
-                        Loglar logGunSonu = new Loglar();
-                        logGunSonu.LogTuru = "HESAP GİRİŞİ";
-                        logGunSonu.Zaman = $"Saat: {zaman}";
-                        logGunSonu.MusteriNumarasi = $"Müşteri Numarası: {girisYapan.MusteriNumarasi}";
-                        logGunSonu.Musteri = $"Müşteri: {girisYapan.MusteriAdi} {girisYapan.MusteriSoyadi}";
-                        switch (secim)
-                        {
-                            case "1":
-                                logGunSonu.IslemTuru = "Para Çekme";
-                                break;
-                            case "2":
-                                logGunSonu.IslemTuru = "Para Yatırma";
-                                break;
-                            case "3":
-                                logGunSonu.IslemTuru = "Para Gönderme";
-                                break;
-                            case "4":
-                                logGunSonu.IslemTuru = "Borç Ödeme";
-                                break;
-                            default:
-                                break;
-                        }
-                        loglar.Add(logGunSonu);
                     }
-                    else
-                    {
-                        Console.WriteLine("Müşteri bulunamadı.");
+                }
+                else
+                {
+                    Console.WriteLine("Müşteri bulunamadı.");
 
-                        Loglar logGunSonu = new Loglar();
-                        logGunSonu.LogTuru = "BULUNAMAYAN MÜŞTERİ";
-                        logGunSonu.Zaman = $"Saat: {zaman}";
-                        logGunSonu.MusteriNumarasi = $"Girilen Müşteri Numarası: {musterino}";
-                        logGunSonu.IslemTuru = "Müşteri Kayıtlarda Bulunamadı";
-                        loglar.Add(logGunSonu);
-
-                        continue;
-                    }
+                    Loglar logGunSonu = new Loglar();
+                    logGunSonu.LogTuru = "BULUNAMAYAN MÜŞTERİ";
+                    logGunSonu.Zaman = $"Saat: {zaman}";
+                    logGunSonu.MusteriNumarasi = $"Girilen Müşteri Numarası: {musterino}";
+                    logGunSonu.IslemTuru = "Müşteri Kayıtlarda Bulunamadı";
+                    loglar.Add(logGunSonu);
+                    kontrol = true;
                 }
                 #endregion
             }

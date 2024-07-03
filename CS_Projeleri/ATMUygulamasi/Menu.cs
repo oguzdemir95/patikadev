@@ -36,39 +36,52 @@ namespace ATMUygulamasi
         #endregion
 
         #region İşlemler
-        public static void SecimiUygula(string secim,AtmMakine atm,Musteri girisYapan,List<Musteri> musteriler,bool iKontrol, List<Loglar> loglar)
+        public static void SecimiUygula(string secim,AtmMakine atm,Musteri girisYapan,List<Musteri> musteriler, List<Loglar> loglar)
         {
+            Loglar logGunSonu = new Loglar();
+            string zaman = DateTime.Now.ToLongTimeString();
+            logGunSonu.LogTuru = "ATM İŞLEMİ";
+            logGunSonu.Zaman = $"Saat: {zaman}";
+            logGunSonu.MusteriNumarasi = $"Müşteri Numarası: {girisYapan.MusteriNumarasi}";
+            logGunSonu.Musteri = $"Müşteri: {girisYapan.MusteriAdi} {girisYapan.MusteriSoyadi}";
             switch (secim)
             {
                 case "1":
                     Console.Clear();
                     UstBilgi(atm, girisYapan);
                     atm.ParaCek(girisYapan);
-                    atm.SiradakiIslem(atm,girisYapan, iKontrol);
+                    atm.SiradakiIslem(atm, girisYapan);
+                    logGunSonu.IslemTuru = "Para Çekme";
                     break;
                 case "2":
                     Console.Clear();
                     UstBilgi(atm, girisYapan);
                     atm.ParaYatir(girisYapan);
-                    atm.SiradakiIslem(atm,girisYapan, iKontrol);
+                    atm.SiradakiIslem(atm,girisYapan);
+                    logGunSonu.IslemTuru = "Para Yatırma";
+
                     break;
                 case "3":
                     Console.Clear();
                     UstBilgi(atm, girisYapan);
                     atm.ParaGonder(musteriler, girisYapan);
-                    atm.SiradakiIslem(atm, girisYapan, iKontrol);
+                    atm.SiradakiIslem(atm, girisYapan);
+                    logGunSonu.IslemTuru = "Para Gönderme";
+
                     break;
                 case "4":
                     Console.Clear();
                     UstBilgi(atm, girisYapan);
                     atm.OdemeYap(girisYapan);
-                    atm.SiradakiIslem(atm, girisYapan, iKontrol);
+                    atm.SiradakiIslem(atm, girisYapan);
+                    logGunSonu.IslemTuru = "Borç Ödeme";
+
                     break;
                 case "5":
                     Console.Clear();
                     UstBilgi(atm, girisYapan);
                     Loglar.LogYazdir(loglar);
-                    atm.SiradakiIslem(atm, girisYapan, iKontrol);
+                    atm.SiradakiIslem(atm, girisYapan);
                     break;
                 case "6":
                     atm.HesaptanCikis();
@@ -79,6 +92,7 @@ namespace ATMUygulamasi
                     Console.WriteLine("Geçersiz giriş.");
                     break;
             }
+            loglar.Add(logGunSonu);
         }
         #endregion
     }
